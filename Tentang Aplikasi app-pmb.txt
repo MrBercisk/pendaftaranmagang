@@ -1,0 +1,54 @@
+/*
+|--------------------------------------------------------------------------
+| Aplikasi Pendaftaran Mahasiswa Baru - Bang Ambo University
+|--------------------------------------------------------------------------
+|
+| @author     Randi Adrika Putra, ST
+|
+| Aplikasi ini memiliki dua user yakni:
+| 	- Admin (panitia)
+| 	- Member (peserta)
+|
+| Admin (panitia) dapat:
+|	- Melakukan login
+|	- Mengelola informasi pendaftaran
+|	- Mengelola data fakultas
+|	- Mengelola data prodi
+|	- Mengelola data pendaftaran
+|
+| Member (peserta) dapat:
+|	- Mengunjungi halaman utama website
+|	- Membuat akun pendaftaran
+|	- Melakukan login
+|	- Melakukan pendaftran:
+|		* Tahap satu (Mengisi Biodata)
+|		* Tahap dua  (Pilih Fakultas Dan Prodi)
+|		* Tahap tiga (Upload Berkas Pendaftaran)
+|		* Tahap empat (Resume Pendaftaran)
+|	- Mencetak kartu pendaftaran
+|
+| Direktori database file .sql Aplikasi:
+| app-pmb\
+| 	……
+|	app-pmbdb\
+|		app-pmbdb.sql
+|	……
+|
+| Email dan password (default) login Aplikasi:
+| No.	Email						Password	User Role
+| 1.	admin-pmb@ba-university.ac.id			admin123	Admin (panitia).
+| 2.	lelahmishquen@gmail.com				member123	Member (peserta). 
+| 3.	otewekaya@gmail.com				member123	Member (peserta).
+| 4.	penikmatsenja@gmail.com				member123	Member (peserta).
+|
+*/
+
+
+
+
+
+
+
+
+
+	 
