@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="/assets/favicon.ico" rel="icon">
-  <link href="/assets/bizland/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" href="http://localhost/diskominfosan/public/assets/logo.png">
+
   <!-- Vendor CSS Files -->
   <link href="/assets/bizland/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="/assets/bizland/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -25,7 +25,10 @@
   <link rel="stylesheet" href="/assets/adminlte3/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- Template Main CSS File -->
   <link href="/assets/bizland/css/style.css" rel="stylesheet">
-
+  <!-- Icon Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!-- WEBCAM -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"> 
   <!-- =======================================================
   * Template Name: BizLand - v1.1.0
   * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
@@ -55,18 +58,42 @@
 
   <!-- ======= Header ======= -->
   <?= $this->renderSection('header') ?>
-  
+
   <!-- ======= Content ======= -->
   <?= $this->renderSection('content') ?>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <img src="<?= base_url('/assets/logo.png'); ?>" width="70px" class="mb-3">
+            <h3>E-MAGANG</h3>
+            <p>
+              Website Pendaftaran Magang <br>
+              Dinas Komunikasi Informatika dan Persandian <br>
+              Yogyakarta,Indonesia<br>
+            </p>
+          </div>
+          <div class="col-lg-5 col-md-6 mb-3 footer-info">
+            <p><i class="bi bi-geo-alt-fill me-2"></i> Jl. Kenari, Muja Muju, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta, 55165</p>
+            <p><i class="bi bi-telephone-fill me-2"></i> (+62) 8123489122</p>
+            <p><i class="bi bi-envelope-fill me-2"></i> kominfosandi@jogjakota.go.id</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <div class="container py-4">
       <div class="copyright">
-        <strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="#">DISKOMINFOSAN</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; <script>
+            document.write(new Date().getFullYear());
+          </script> <a href="#">DISKOMINFOSAN</a>.</strong> All rights reserved.
       </div>
       <div class="credits">
-        <b>Kota Yogyakarta</b>
+        <b>v 1.0.0</b>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -98,6 +125,9 @@
   <script src="/assets/adminlte3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
   <!-- Template Main JS File -->
   <script src="/assets/bizland/js/main.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"></script>
+
   <!-- page script -->
   <?= $this->renderSection('script') ?>
 

@@ -1,4 +1,6 @@
-<?php namespace Config;
+<?php
+
+namespace Config;
 
 use CodeIgniter\Config\BaseConfig;
 
@@ -22,7 +24,7 @@ class App extends BaseConfig
 	|
 	*/
 	public $baseURL = 'http://localhost:8080/';
-
+	//public $baseURL = BASE;
 	/*
 	|--------------------------------------------------------------------------
 	| Index File
@@ -33,7 +35,7 @@ class App extends BaseConfig
 	| variable so that it is blank.
 	|
 	*/
-	public $indexPage = 'index.php';
+	public $indexPage = '';
 
 	/*
 	|--------------------------------------------------------------------------
@@ -207,7 +209,7 @@ class App extends BaseConfig
 	public $cookiePrefix   = '';
 	public $cookieDomain   = '';
 	public $cookiePath     = '/';
-	public $cookieSecure   = true; 
+	public $cookieSecure   = true;
 	public $cookieHTTPOnly = false;
 
 	/*

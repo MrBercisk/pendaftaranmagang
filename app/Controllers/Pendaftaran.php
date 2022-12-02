@@ -44,7 +44,7 @@ class Pendaftaran extends BaseController
 		//Cek Nomor Pendaftaran
 		$maxPendaftaran = $this->M_pendaftaran->selectMax('nomor_pendaftaran')->first();
 		if ($maxPendaftaran['nomor_pendaftaran'] == "") {
-			$nomor_pendaftaran = 200817001;
+			$nomor_pendaftaran = 202212001;
 		} else {
 			$nomor_pendaftaran = $maxPendaftaran['nomor_pendaftaran'] + 1;
 		}
@@ -114,7 +114,7 @@ class Pendaftaran extends BaseController
 		else {
 			//Data User
 			$data = [
-				'role_id' => 2,
+				'role_id' => 4,
 				'nama' => strtoupper($nama),
 				'email' => $email,
 				'password' => base64_encode($this->encrypter->encrypt($password))
@@ -176,9 +176,13 @@ class Pendaftaran extends BaseController
 		$tools 	= $this->request->getPost('tools');
 		$no_hp			= $this->request->getPost('no_hp');
 		$nama_kampus	= $this->request->getPost('nama_kampus');
+		$prodi	= $this->request->getPost('prodi');
+		$judul	= $this->request->getPost('judul');
 		$alamat_peserta	= $this->request->getPost('alamat_peserta');
 		$jenis_permohonan	= $this->request->getPost('jenis_permohonan');
 		$status_permohonan	= $this->request->getPost('status_permohonan');
+		$tanggal_mulai	= $this->request->getPost('tanggal_mulai');
+		$tanggal_selesai	= $this->request->getPost('tanggal_selesai');
 
 		//Validasi pendaftaran tahap satu
 		$validasi_tahap_satu = [
@@ -188,8 +192,12 @@ class Pendaftaran extends BaseController
 			'no_hp' => $no_hp,
 			'alamat_peserta' => $alamat_peserta,
 			'nama_kampus' => $nama_kampus,
+			'prodi' => $prodi,
+			'judul' => $judul,
 			'jenis_permohonan' => $jenis_permohonan,
-			'status_permohonan' => $status_permohonan
+			'status_permohonan' => $status_permohonan,
+			'tanggal_mulai' => $tanggal_mulai,
+			'tanggal_selesai' => $tanggal_selesai
 		];
 
 		//Cek Validasi pendaftaran tahap satu, Jika Data Tidak Valid 
@@ -212,8 +220,12 @@ class Pendaftaran extends BaseController
 				'no_hp' => $no_hp,
 				'alamat_peserta' => $alamat_peserta,
 				'nama_kampus' => strtoupper($nama_kampus),
+				'prodi' => $prodi,
+				'judul' => $judul,
 				'jenis_permohonan' => $jenis_permohonan,
 				'status_permohonan' => $status_permohonan,
+				'tanggal_mulai' => $tanggal_mulai,
+				'tanggal_selesai' => $tanggal_selesai,
 				'tahap_satu'  => "Selesai"
 			];
 			//Simpan pendaftaran tahap satu
@@ -319,6 +331,7 @@ class Pendaftaran extends BaseController
 		$cekTahapTiga = $this->M_pendaftaran->where('user_id', $user_id)->first();
 		$foto_peserta = $cekTahapTiga['foto'];
 		$berkas_peserta = $cekTahapTiga['berkas'];
+		$nda = $cekTahapTiga['nda'];
 		$surat_permohonan = $cekTahapTiga['surat_permohonan'];
 		$video_perkenalan = $cekTahapTiga['video_perkenalan'];
 
@@ -326,6 +339,7 @@ class Pendaftaran extends BaseController
 		if ($foto_peserta == "" && $berkas_peserta == "") {
 			$data['foto_peserta'] = "Pilih foto..";
 			$data['berkas_peserta'] = "Pilih berkas..";
+			$data['nda'] = "Pilih file..";
 			$data['lokasi_foto'] = "/file_peserta/default.jpg";
 			$data['surat_permohonan'] = "Pilih file..";
 			$data['video_perkenalan'] = "Pilih file..";
@@ -334,6 +348,7 @@ class Pendaftaran extends BaseController
 		else {
 			$data['foto_peserta'] = $foto_peserta;
 			$data['berkas_peserta'] = $berkas_peserta;
+			$data['nda'] = $nda;
 			$data['surat_permohonan'] = $surat_permohonan;
 			$data['video_perkenalan'] = $video_perkenalan;
 			$data['lokasi_foto'] = "/file_peserta/" . $foto_peserta;
@@ -351,6 +366,7 @@ class Pendaftaran extends BaseController
 		$id 	= $this->request->getPost('idPendaftaran');
 		$foto  	= $this->request->getFile('foto');
 		$berkas = $this->request->getFile('berkas');
+		$nda = $this->request->getFile('nda');
 		$surat_permohonan = $this->request->getFile('surat_permohonan');
 		$video_perkenalan = $this->request->getFile('video_perkenalan');
 
@@ -358,6 +374,7 @@ class Pendaftaran extends BaseController
 		$validasi_tahap_tiga = [
 			'foto' => $foto,
 			'berkas' => $berkas,
+			'nda' => $nda,
 			'surat_permohonan' => $surat_permohonan,
 			'video_perkenalan' => $video_perkenalan
 		];
@@ -385,12 +402,16 @@ class Pendaftaran extends BaseController
 			$nama_surat = $surat_permohonan->getRandomName();
 			$surat_permohonan->move('file_peserta', $nama_surat);
 
+			$nama_nda = $nda->getRandomName();
+			$nda->move('file_peserta', $nama_nda);
+
 			$nama_video = $video_perkenalan->getRandomName();
 			$video_perkenalan->move('file_peserta', $nama_video);
 
 			$data_tahap_tiga = [
 				'foto'   	=> $nama_foto,
 				'berkas'   	=> $nama_berkas,
+				'nda'   	=> $nama_nda,
 				'surat_permohonan'   	=> $nama_surat,
 				'video_perkenalan'   	=> $nama_video,
 				'tahap_tiga'  => "Selesai",
@@ -493,6 +514,8 @@ class Pendaftaran extends BaseController
 		$bidang_id 	= $buktiPendaftaran['bidang_id'];
 		$kategori_id 		= $buktiPendaftaran['kategori_id'];
 
+
+
 		$data['buktiPendaftaran']   = $buktiPendaftaran;
 
 		//bidang
@@ -502,6 +525,12 @@ class Pendaftaran extends BaseController
 		//kategori
 		$cekKategori = $this->M_kategori->where('id', $kategori_id)->first();
 		$data['nama_kategori']   = $cekKategori['nama_kategori'];
+
+		//Cek tanggal informasi pendaftaran
+		$cekInfo = $this->M_informasi->first();
+		$data['tgl_pengumuman'] = $cekInfo['tgl_pengumuman'];
+
+		$data['tgl_sekarang'] = date('Y-m-d');
 
 		//Cetak dengan dompdf
 		$dompdf = new \Dompdf\Dompdf();
@@ -515,6 +544,23 @@ class Pendaftaran extends BaseController
 		$dompdf->render();
 		$dompdf->stream('bukti_pendaftaran.pdf', array("Attachment" => false));
 	}
+	
+	// Cetak NDE
+	public function nda()
+	{
+
+		//Cetak dengan dompdf
+		$dompdf = new \Dompdf\Dompdf();
+		$options = new \Dompdf\Options();
+		$options->setIsRemoteEnabled(true);
+
+		$dompdf->setOptions($options);
+		$dompdf->output();
+		$dompdf->loadHtml(view('v_pendaftaran/nda'));
+		$dompdf->setPaper('A4', 'portrait');
+		$dompdf->render();
+		$dompdf->stream('nda.pdf', array("Attachment" => false));
+	}
 
 	// Logout
 	public function logout()
@@ -523,5 +569,3 @@ class Pendaftaran extends BaseController
 		return redirect()->to('/');
 	}
 }
-
-

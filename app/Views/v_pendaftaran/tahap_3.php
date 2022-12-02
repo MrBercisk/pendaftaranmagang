@@ -3,6 +3,7 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
     <h1 class="logo mr-auto"><a href="#">E-Magang<span> Diskominfosan</span></a></h1>
     <nav class="nav-menu d-none d-lg-block">
       <ul>
@@ -49,7 +50,7 @@
 
         <div class="col-lg">
           <form id="formUploadBerkas" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
-            <input type="hidden" name="idPendaftaran" value="<?=$idPendaftaran; ?>" />
+            <input type="hidden" name="idPendaftaran" value="<?= $idPendaftaran; ?>" />
             <!-- Upload Berkas Pendaftaran -->
             <label for="tahun">Pas photo 3 x 4 (Ukuran Max. 500Kb Dengan Format .jpg)</label>
             <div class="custom-file">
@@ -57,11 +58,31 @@
               <small id="foto_error" class="form-text text-danger mb-3"></small>
               <label class="custom-file-label" for="foto"><?= $foto_peserta; ?></label>
             </div>
+         <!--    <label for="tahun">Ambil Gambar (Webcam) </label>
+            <div class="custom-file">
+              <div id="my_camera">
+
+              </div>
+              <p>
+                <button type="button" class="btn btn-sm btn-info" onclick="take_picture()">Ambil Gambar</button>
+              </p>
+            </div>
+            <div class="custom-file">
+              <label for="" class="col-sm-2 col-form-label">Capture</label>
+              <div class="col-sm-6" id="results"></div>
+              <input type="hidden" name="foto" id="foto" class="image-tag">
+            </div> -->
             <label for="tahun" class="mt-3">Berkas syarat pendaftaran dalam 1 file (Ukuran Max. 2Mb Dengan Format .pdf)</label>
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="berkas" name="berkas">
               <small id="berkas_error" class="form-text text-danger mb-3"></small>
               <label class="custom-file-label" for="berkas"><?= $berkas_peserta; ?></label>
+            </div>
+            <label for="tahun" class="mt-3">Surat NDA Perjanjian Magang Mahasiswa(Yang sudah ditanda tangan peserta)</label>
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="nda" name="nda">
+              <small id="nda_error" class="form-text text-danger mb-3"></small>
+              <label class="custom-file-label" for="nda"><?= $nda; ?></label>
             </div>
             <label for="tahun" class="mt-3">Surat Permohonan (Ukuran Max. 1Mb Dengan Format .pdf)</label>
             <div class="custom-file">
@@ -79,7 +100,7 @@
             <!-- Tombol Simpan -->
             <div class="mt-2">
               <button class="col-lg-4" type="submit" id="btn-pendaftaran3">Simpan dan Lanjutkan</button>
-              <?php if ($tahap_tiga == "Selesai"): ?>
+              <?php if ($tahap_tiga == "Selesai") : ?>
                 <a href="<?php echo base_url('pendaftaran/tahapempat'); ?>" role="button" class="btn btn-light col-lg-3">Lewati</a>
               <?php endif ?>
             </div>
@@ -96,16 +117,50 @@
 
 <?= $this->section('script') ?>
 <script>
-
-  //Preview pas photo yang di upload peserta
-  function previewFile(input){
-    var file = $("input[type=file]").get(0).files[0];
-    if(file){
-        var reader = new FileReader();
-        reader.onload = function(){
-            $("#previewImg").attr("src", reader.result);
+  $('#register').on('submit', function(event) {
+    event.preventDefault();
+    var image = '';
+    var username = $('#username').val();
+    var email = $('#email').val();
+    var password = $('#password').val();
+    Webcam.snap(function(data_uri) {
+      image = data_uri;
+    });
+    $.ajax({
+        url: '<?php echo site_url("capture/save"); ?>',
+        type: 'POST',
+        dataType: 'json',
+        data: {
+          username: username,
+          email: email,
+          password: password,
+          image: image
+        },
+      })
+      .done(function(data) {
+        if (data > 0) {
+          alert('insert data sukses');
+          $('#register')[0].reset();
         }
-        reader.readAsDataURL(file);
+      })
+      .fail(function() {
+        console.log("error");
+      })
+      .always(function() {
+        console.log("complete");
+      });
+
+
+  });
+  //Preview pas photo yang di upload peserta
+  function previewFile(input) {
+    var file = $("input[type=file]").get(0).files[0];
+    if (file) {
+      var reader = new FileReader();
+      reader.onload = function() {
+        $("#previewImg").attr("src", reader.result);
+      }
+      reader.readAsDataURL(file);
     }
   }
   //-------------------------------------------------------------------
@@ -115,34 +170,35 @@
     bsCustomFileInput.init();
 
     //Submit pendaftaran tahap tiga
-    $('#formUploadBerkas').on('submit', function(e){
+    $('#formUploadBerkas').on('submit', function(e) {
       e.preventDefault();
-      
+
       $.ajax({
-        url: "<?php echo base_url('pendaftaran/saveTahapTiga')?>",
+        url: "<?php echo base_url('pendaftaran/saveTahapTiga') ?>",
         method: "POST",
-        data:new FormData(this),  
-        contentType: false,  
-        cache: false,  
-        processData:false,
+        data: new FormData(this),
+        contentType: false,
+        cache: false,
+        processData: false,
         dataType: "JSON",
-        success: function (res) {
+        success: function(res) {
           //Data error 
-          if(res.error){
-            if(res.tahap_tiga_error['foto'] != '') $('#foto_error').html(res.tahap_tiga_error['foto']);
+          if (res.error) {
+            if (res.tahap_tiga_error['foto'] != '') $('#foto_error').html(res.tahap_tiga_error['foto']);
             else $('#foto_error').html('');
 
-            if(res.tahap_tiga_error['berkas'] != '') $('#berkas_error').html(res.tahap_tiga_error['berkas']);
+            if (res.tahap_tiga_error['berkas'] != '') $('#berkas_error').html(res.tahap_tiga_error['berkas']);
             else $('#berkas_error').html('');
-            
-            if(res.tahap_tiga_error['surat_permohonan'] != '') $('#surat_permohonan_error').html(res.tahap_tiga_error['surat_permohonan']);
+
+            if (res.tahap_tiga_error['surat_permohonan'] != '') $('#surat_permohonan_error').html(res.tahap_tiga_error['surat_permohonan']);
             else $('#surat_permohonan_error').html('');
-            if(res.tahap_tiga_error['video_perkenalan'] != '') $('#video_perkenalan_error').html(res.tahap_tiga_error['video_perkenalan']);
+            
+            if (res.tahap_tiga_error['video_perkenalan'] != '') $('#video_perkenalan_error').html(res.tahap_tiga_error['video_perkenalan']);
             else $('#video_perkenalan_error').html('');
           }
 
           //Pendaftaran tahap tiga sukses
-          if(res.success){
+          if (res.success) {
             Swal.fire({
               icon: 'success',
               title: 'Tahap tiga berhasil!',
@@ -151,17 +207,28 @@
             });
             window.location.replace(res.link);
           }
-            
+
         }
-        
+
       });
 
     });
     //-------------------------------------------------------------------
 
-    
+
 
   });
-
 </script>
+
+<!-- <script>
+  Webcam.set({
+    width: 320,
+    height: 240,
+    image_format: 'jpeg',
+    jpeg_quality: 100
+  });
+  Webcam.attach('#my_camera');
+
+
+</script> -->
 <?= $this->endSection() ?>

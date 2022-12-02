@@ -72,34 +72,49 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Chatbox Whatsapp */
+:root {
+  --warna-background: #42a895; /* Warna background header dan tombol chat */
+  --warna-bg-chat: #f0f5fb;
+  --warna-icon: #fff; /* Warna icon chat */
+  --warna-text: #505050;
+  --warna-text-alt: #989b9f;
+  --lebar-chatbox: 320px;
+  }
+  
+  svg{width: 22px;height: 22px;vertical-align: middle;fill: var(--warna-icon)}
+  .chatMenu, .chatButton .svg-2{display: none}
+  
+  .chatButton{position: fixed;background-color: var(--warna-background);bottom: 20px;right: 20px;border-radius: 50px;z-index: 20;overflow: hidden;display: flex;align-items: center;justify-content: center;width: 50px;height: 50px;-webkit-transition: all .2s ease-out;transition: all .2s ease-out}
+  .chatButton svg{margin: auto;fill: var(--warna-icon)}
+    
+  .chatBox{position: fixed;bottom: 70px;right: 20px;width: var(--lebar-chatbox);-webkit-transition: all .2s ease-out;transition: all .2s ease-out;z-index: 21;opacity: 0;visibility: hidden;line-height: normal}
+  .chatContent{border-radius: 15px;background-color: #fff;box-shadow: 0 5px 15px 0 rgba(0,0,0,.05);overflow: hidden}
+  .chatHeader{position: relative;display: flex;align-items: center;padding: 15px 20px;background-color: var(--warna-background);overflow: hidden}
+  .chatHeader svg{width: 32px;height: 32px;flex-shrink: 0;fill: var(--warna-icon)}
+  .chatHeader .chatTitle{padding-right: 15px;font-size: 14px;color: var(--warna-icon)}
+  .chatHeader .chatTitle span{font-size: 11.5px;display: block;line-height: 1.58em}
+    
+  .chatText{display: flex;flex-wrap: wrap;margin: 25px 20px;font-size: 12px;color: var(--warna-text)}
+  .chatText span{display: inline-block;margin-left: auto;padding: 10px 10px 10px 20px;background-color: var(--warna-background);border-radius: 3px 15px 15px}
+  .chatText span:after{content: 'Just now';margin-right: 15px;font-size: 9px;color: var(--warna-text-alt)}
+  .chatText .typing{margin: 15px 0 0 auto;padding: 10px 20px 10px 10px;border-radius: 15px 3px 15px 15px}
+  .chatText .typing after{display: none}
+    
+  .chatStart{display: flex;align-items: center;margin-top: 15px;padding: 18px 20px;border-radius: 10px;background-color: #fff;overflow: hidden;font-size: 12px;color: var(--warna-text)}
+  .chatMenu:checked + .chatButton{-webkit-transform: rotate(360deg);transform: rotate(360deg)}
+  .chatMenu:checked + .chatButton .svg-1{display: none}
+  .chatMenu:checked + .chatButton .svg-2{display: block}
+  .chatMenu:checked ~ .chatBox{bottom: 90px;opacity: 1;visibility: visible}
+
+.member .member-img img{
+  margin-left: 20px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  display: none;
-  right: 15px;
-  bottom: 15px;
-  z-index: 99999;
-}
 
-.back-to-top i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  background: #42a895;
-  color: #fff;
-  transition: all 0.4s;
-}
 
-.back-to-top i:hover {
-  background: #42a895;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -163,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 25px 0;
+  padding: 15px 0;
   top: 40px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -176,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   font-size: 32px;
   margin: 0;
-  padding: 0;
+  padding-left: 10px;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -579,7 +594,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  /* background-color: #f6f9fe; */
 }
 
 .section-title {
@@ -1256,196 +1271,214 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Info
 --------------------------------------------------------------*/
-.team {
-  padding: 60px 0;
+#info {
+  /* margin: auto; */
 }
 
-.team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+#info .syarat .col-md {
+  padding-bottom: 20px;
 }
 
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
+#info .syarat .card {
+  width: 100%;
+  margin: auto;
 }
 
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
+#info .syarat img{
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+
+#info .syarat h5 {
+  font-weight: bolder;
+}
+
+#info .lowongan .group {
+  padding-bottom: 20px;
+}
+
+#info .lowongan .judul-bagian h4 {
+  padding-top: 30px;
   text-align: center;
+  font-weight: bolder;
+  border-bottom: solid 1px #42a895;
 }
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: #222222;
-  margin: 0 3px;
-  padding-top: 7px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: rgba(16, 110, 234, 0.8);
-  display: inline-block;
-  transition: ease-in-out 0.3s;
-  color: #fff;
+#info .lowongan .ganjil {
+  max-width: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 
-.team .member .social a:hover {
-  background: #3b8af2;
+#info .lowongan .ganjil .gambar {
+  text-align: center;
+  order: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.team .member .social i {
-  font-size: 18px;
+#info .lowongan .ganjil .keterangan {
+  order: 2;
+  padding-bottom: 20px;
 }
 
-.team .member .member-info {
-  padding: 25px 15px;
+#info .lowongan .ganjil h5 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #42a895;
 }
 
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #222222;
+#info .lowongan .genap {
+  padding-top: 20px;
 }
 
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #aaaaaa;
+#info .lowongan .genap .keterangan {
+  padding-bottom: 20px;
 }
 
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #777777;
+#info .lowongan .genap h5 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #42a895;
 }
 
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
+#info .lowongan .genap .gambar {
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 780px) {
+  #info .lowongan .group {
+    padding-bottom: 20px;
+  }
+
+  #info .lowongan .judul-bagian h4 {
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid 1px #42a895;
+  }
+  #info .lowongan .ganjil {
+    display: flex;
+  }
+
+  #info .lowongan .ganjil .gambar {
+    flex: 2;
+  }
+
+  #info .lowongan .ganjil .keterangan {
+    flex: 2;
+    padding-top: 60px;
+  }
+
+  #info .lowongan .ganjil h5 {
+    text-align: center;
+    color: #42a895;
+  }
+
+  #info .lowongan .genap {
+    display: flex;
+    padding-top: 30px;
+  }
+
+  #info .lowongan .genap .gambar {
+    flex: 2;
+    text-align: center;
+  }
+
+  #info .lowongan .genap .keterangan {
+    flex: 2;
+    padding-top: 60px;
+  }
+
+  #info .lowongan .genap h5 {
+    color: #42a895;
+  }
+}
+
+#info .lowongan img {
+  width: 300px;
+}
+
+#info .lowongan li {
+  list-style-type: disc;
+}
+
+
+/*--------------------------------------------------------------
+# Panduan
+--------------------------------------------------------------*/
+
+#panduan {
+  padding-top: 40px;
+}
+
+#panduan .container {
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#panduan .container .group {
+  padding-bottom: 350px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+#panduan .container i {
+  font-size: 30px;
+  float: left;
+  padding-right: 30px;
+}
+
+#panduan .container h6 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#panduan .container p {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Team
 --------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
+
+#team {
+  padding: 60px;
+  /* background-color: #f6f9fe; */
 }
 
-.pricing .box h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
+#team .container {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-around
 }
 
-.pricing .box h4 {
-  font-size: 36px;
-  color: #106eea;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #106eea;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
+#team .group{
+  padding-bottom: 30px;
   text-align: center;
 }
 
-.pricing .btn-buy {
-  background: #106eea;
-  display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-  background: #3b8af2;
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #106eea;
-}
-
-.pricing .advanced {
+#team .group img {
   width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #106eea;
-  color: #fff;
+  border-radius: 100%;
 }
+
+#team h6 {
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1646,153 +1679,52 @@ section {
   background: #f1f6fe;
 }
 
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f1f6fe;
-  text-align: center;
-  font-size: 15px;
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
-  text-align: left;
-}
-
-#footer .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #106eea;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type="submit"]:hover {
-  background: #0d58ba;
-}
-
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  color: white;
+  background: #42a895;
+  box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
-
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
-
-#footer .footer-top .footer-contact h3 {
-  font-size: 24px;
-  margin: 0 0 15px 0;
+/* #footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-}
-
-#footer .footer-top .footer-contact h3 span {
-  color: #106eea;
-}
-
+} */
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
-  color: #777777;
+  font-family: "Raleway", sans-serif;
+  color: white;
 }
-
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: white;
   position: relative;
   padding-bottom: 12px;
 }
-
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+#footer .footer-info {
+  margin-bottom: 30px;
+}
+#footer .footer-info i {
+  font-size: 15px;
+  background-color: #fff;
+  border-radius: 100px;
+  color: #42a895;
+  padding: 3px 4px;
 }
 
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #106eea;
-  font-size: 18px;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-#footer .footer-top .footer-links ul a {
-  color: #777777;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-#footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
-  color: #106eea;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #106eea;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #3b8af2;
-  color: #fff;
-  text-decoration: none;
-}
 
 #footer .copyright {
   text-align: center;

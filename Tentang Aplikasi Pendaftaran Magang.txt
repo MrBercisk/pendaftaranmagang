@@ -1,0 +1,52 @@
+/*
+|--------------------------------------------------------------------------
+| Aplikasi Pendaftaran Magang Mahasiswa DISKOMINFO
+|--------------------------------------------------------------------------
+| Aplikasi ini dibuat untuk memenuhi tugas magang dan memenuhi nilai mata kuliah PKL pada semester 5
+| Universitas Bina Sarana Informatika
+| Fakultas Teknik & Informatika
+| Program Studi Sistem Informasi 
+|
+| @programmer Bimo Satrio Putra Pradana
+|	      Sara Puja Kesuma
+|
+| Aplikasi ini memiliki 4 user yakni:
+| 	- Superadmin (Pengelola sistem)
+| 	- Mentor
+|	- Admin
+|	- Mahasiswa
+|
+| Superadmin dapat:
+|	- Melakukan login
+|	- Mengelola informasi pendaftaran
+|	- Mengelola data bidang
+|	- Mengelola data kategori
+|	- Mengelola data pendaftaran
+|	- Mengelola data mentor
+|
+| Mahasiswa dapat:
+|	- Mengunjungi halaman utama website
+|	- Membuat akun pendaftaran
+|	- Melakukan login
+|	- Melakukan pendaftran:
+|		* Tahap satu (Mengisi Biodata)
+|		* Tahap dua  (Memilih bidang dan kategori)
+|		* Tahap tiga (Upload Berkas Pendaftaran dan video)
+|		* Tahap empat (Resume Pendaftaran)
+|	- Mencetak kartu pendaftaran
+|
+| 
+| Email dan password (default) login Aplikasi:
+| No.	Email						Password	User Role
+| 1.	admin@gmail.com			admin123	admin
+*/
+
+
+
+
+
+
+
+
+
+	 

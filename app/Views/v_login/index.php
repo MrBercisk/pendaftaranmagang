@@ -3,6 +3,7 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
+  <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
     <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">E-Magang<span> Diskominfosan</span></a></h1>
   </div>
 </header>

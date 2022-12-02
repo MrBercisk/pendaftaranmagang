@@ -18,6 +18,7 @@ class Dashboard extends BaseController
 		$data ['email']   = $this->session->get('email');
 		return view('v_dashboard/index', $data);
 	}
+	
 
 	// Logout
 	public function logout()

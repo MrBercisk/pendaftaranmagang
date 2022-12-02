@@ -3,6 +3,7 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
     <h1 class="logo mr-auto"><a href="#">E-Magang<span> Diskominfosan</span></a></h1>
     <nav class="nav-menu d-none d-lg-block">
       <ul>
@@ -41,30 +42,30 @@
 
         <div class="col-lg">
           <form id="formBidangKategori" method="post" role="form" class="php-email-form">
-            <input type="hidden" name="idPendaftaran" value="<?=$idPendaftaran; ?>" />
+            <input type="hidden" name="idPendaftaran" value="<?= $idPendaftaran; ?>" />
             <!-- Pilih bidang Dan kategori -->
             <label for="tahun">Pilih Bidang Dan Kategori Pada Diskominfosan</label>
             <div class="form-group">
               <select class="form-control" name="bidang" id="bidang">
-                <option value="<?=$IdBidang; ?>"><?=$nama_bidang; ?></option>
-                <?php foreach ($bidang as $fak): ?>
-                  <option value="<?=$fak['id']; ?>"><?=$fak['nama_bidang']; ?></option>
+                <option value="<?= $IdBidang; ?>"><?= $nama_bidang; ?></option>
+                <?php foreach ($bidang as $fak) : ?>
+                  <option value="<?= $fak['id']; ?>"><?= $fak['nama_bidang']; ?></option>
                 <?php endforeach ?>
               </select>
               <small id="bidang_error" class="form-text text-danger mb-3"></small>
             </div>
             <div class="form-group">
               <select class="form-control" id="kategori" name="kategori">
-                <option value="<?=$IdKategori; ?>"><?=$nama_kategori; ?></option>
+                <option value="<?= $IdKategori; ?>"><?= $nama_kategori; ?></option>
               </select>
               <small id="kategori_error" class="form-text text-danger mb-3"></small>
             </div>
-            
+
 
             <!-- Tombol Simpan -->
             <div class="mb-2">
               <button class="col-lg-3" type="submit" id="btn-pendaftaran2">Simpan dan Lanjutkan</button>
-              <?php if ($tahap_dua == "Selesai"): ?>
+              <?php if ($tahap_dua == "Selesai") : ?>
                 <a href="<?php echo base_url('pendaftaran/tahaptiga'); ?>" role="button" class="btn btn-light col-lg-3">Lewati</a>
               <?php endif ?>
             </div>
@@ -84,51 +85,53 @@
   $(document).ready(function() {
 
     //Menampilkan Pilihan kategori Berdasarkan bidang
-    $('#bidang').on('change', function(){
+    $('#bidang').on('change', function() {
       const id = $(this).val();
-      
+
       $.ajax({
-        url: "<?php echo base_url('pendaftaran/ajaxPilihanKategori')?>",
+        url: "<?php echo base_url('pendaftaran/ajaxPilihanKategori') ?>",
         method: "POST",
-        data : {id: id},
-        async : true,
+        data: {
+          id: id
+        },
+        async: true,
         dataType: "JSON",
-        success: function (data) {
+        success: function(data) {
           var html = '';
           var i;
-          for(i=0; i<data.length; i++){
-              html += '<option value='+data[i].id+'>'+data[i].nama_kategori+'</option>';
+          for (i = 0; i < data.length; i++) {
+            html += '<option value=' + data[i].id + '>' + data[i].nama_kategori + '</option>';
           }
-          $('#kategori').html(html);  
+          $('#kategori').html(html);
         }
-        
+
       });
 
     });
     //-------------------------------------------------------------------
 
     //Submit pendaftaran tahap dua
-    $('#btn-pendaftaran2').on('click', function(){
+    $('#btn-pendaftaran2').on('click', function() {
       const formBidangKategori = $('#formBidangKategori');
-      
+
       $.ajax({
-        url: "<?php echo base_url('pendaftaran/saveTahapDua')?>",
+        url: "<?php echo base_url('pendaftaran/saveTahapDua') ?>",
         method: "POST",
         data: formBidangKategori.serialize(),
         dataType: "JSON",
-        success: function (data) {
+        success: function(data) {
           //Data error 
-          if(data.error){
-            if(data.tahap_dua_error['bidang_id'] != '') $('#bidang_error').html(data.tahap_dua_error['bidang_id']);   
+          if (data.error) {
+            if (data.tahap_dua_error['bidang_id'] != '') $('#bidang_error').html(data.tahap_dua_error['bidang_id']);
             else $('#bidang_error').html('');
 
-            if(data.tahap_dua_error['kategori_id'] != '') $('#kategori_error').html(data.tahap_dua_error['kategori_id']);   
+            if (data.tahap_dua_error['kategori_id'] != '') $('#kategori_error').html(data.tahap_dua_error['kategori_id']);
             else $('#kategori_error').html('');
-            
-           
+
+
           }
           //Pendaftaran tahap dua sukses
-          if(data.success){
+          if (data.success) {
             Swal.fire({
               icon: 'success',
               title: 'Tahap dua berhasil!',
@@ -137,15 +140,14 @@
             });
             window.location.replace(data.link);
           }
-            
+
         }
-        
+
       });
 
     });
     //-------------------------------------------------------------------
 
   });
-
 </script>
 <?= $this->endSection() ?>

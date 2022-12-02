@@ -36,6 +36,8 @@ class Validation
     // Rules
     //--------------------------------------------------------------------
 
+    
+
     //Validasi Data bidang
     public $bidang = [
         'nama_bidang' => [
@@ -43,6 +45,15 @@ class Validation
             'rules'  => 'required',
             'errors' => [
                 'required' => 'Nama bidang tidak boleh kosong!'
+            ]
+        ]
+    ];
+    public $mentor = [
+        'nama_mentor' => [
+            'label'  => 'Nama mentor',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Nama mentor tidak boleh kosong!'
             ]
         ]
     ];
@@ -54,6 +65,20 @@ class Validation
             'rules'  => 'required',
             'errors' => [
                 'required' => 'Nama kategori tidak boleh kosong!'
+            ]
+            ],
+        'syarat' => [
+            'label'  => 'Syarat',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Syarat tidak boleh kosong!'
+            ]
+            ],
+        'tugas' => [
+            'label'  => 'Tugas',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Tugas tidak boleh kosong!'
             ]
         ]
     ];
@@ -76,7 +101,7 @@ class Validation
         ]
     ];
 
-    //Validasi Pendaftaran - Buat kun
+    //Validasi Pendaftaran - Buat akun
     public $daftar_akun = [
         'nama' => [
             'label'  => 'Nama Lengkap',
@@ -132,6 +157,25 @@ class Validation
             ]
         ]
     ];
+    //Validasi Login
+    public $magang = [
+        'email' => [
+            'label'  => 'Email',
+            'rules'  => 'required|valid_email',
+            'errors' => [
+                'required' => 'Email Tidak Boleh Kosong!',
+                'valid_email' => 'Email Tidak Valid!'
+            ]
+        ],
+        'password' => [
+            'label'  => 'Password',
+            'rules'  => 'required|min_length[8]',
+            'errors' => [
+                'required' => 'Password Tidak Boleh Kosong!',
+                'min_length' => 'Password Minimal 8 Karakter!'
+            ]
+        ]
+    ];
 
     //Validasi Pendaftran - Tahap satu (Biodata)
     public $tahap_satu = [
@@ -169,6 +213,14 @@ class Validation
             ]
         ],
 
+        'prodi' => [
+            'label'  => 'Program Studi',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Program Studi Peserta tidak boleh kosong!'
+            ]
+        ],
+
         'keahlian' => [
             'label'  => 'Keahlian',
             'rules'  => 'required',
@@ -183,6 +235,14 @@ class Validation
                 'required' => 'Tools Yang Dikuasai Peserta tidak boleh kosong!'
             ]
         ],
+        'judul' => [
+            'label'  => 'Judul',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Judul Project Magang tidak boleh kosong!'
+            ]
+        ],
+        
         'jenis_permohonan' => [
             'label'  => 'Jenis Permohonan',
             'rules'  => 'required',
@@ -195,6 +255,20 @@ class Validation
             'rules'  => 'required',
             'errors' => [
                 'required' => 'Pilihan Status Permohonan tidak boleh kosong!'
+            ]
+            ],
+        'tanggal_mulai' => [
+            'label'  => 'tanggal_mulai',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Tanggal Mulai tidak boleh kosong!'
+            ]
+            ],
+        'tanggal_selesai' => [
+            'label'  => 'tanggal_selesai',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Tanggal Selesai tidak boleh kosong!'
             ]
         ]
     ];
@@ -236,6 +310,15 @@ class Validation
             'rules'  => 'uploaded[berkas]|max_size[berkas,2048]|ext_in[berkas,pdf]',
             'errors' => [
                 'uploaded' => 'Berkas Peserta tidak boleh kosong!',
+                'max_size' => 'Ukuran File Berkas Peserta maksimal 2Mb!',
+                'ext_in' => 'Format File Berkas Peserta tidak sesuai!'
+            ]
+        ],
+        'nda' => [
+            'label'  => 'NDA',
+            'rules'  => 'uploaded[nda]|max_size[nda,2048]|ext_in[nda,pdf]',
+            'errors' => [
+                'uploaded' => 'NDA Peserta tidak boleh kosong!',
                 'max_size' => 'Ukuran File Berkas Peserta maksimal 2Mb!',
                 'ext_in' => 'Format File Berkas Peserta tidak sesuai!'
             ]

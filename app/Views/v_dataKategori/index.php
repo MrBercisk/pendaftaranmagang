@@ -43,6 +43,8 @@
                   <tr>
                     <th>No.</th>
                     <th>Nama Kategori</th>
+                    <th>Syarat Magang</th>
+                    <th>Tugas Magang</th>
                     <th>Aksi</th>
                   </tr>
                   </thead>
@@ -111,11 +113,21 @@
             if(data.nama_kategori_error['nama_kategori'] != '') $('#nama_kategori_error').html(data.nama_kategori_error['nama_kategori']); 
             else $('#nama_kategori_error').html('');
           }
+          if(data.error){
+            if(data.nama_kategori_error['syarat'] != '') $('#syarat_error').html(data.syarat_error['syarat']); 
+            else $('#syarat_error').html('');
+          }
+          if(data.error){
+            if(data.tugas_error['tugas'] != '') $('#tugas_error').html(data.tugas_error['tugas']); 
+            else $('#tugas_error').html('');
+          }
           //Data bidang berhasil disimpan
           if(data.success){
             formInput.trigger('reset');
             $('#modalAdd').modal('hide');
             $('#nama_kategori_error').html('');
+            $('#syarat_error').html('');
+            $('#tugas_error').html('');
             $('#example1').DataTable().ajax.reload();
             toastr.success('Data kategori berhasil disimpan.');
           }
@@ -138,6 +150,8 @@
         {
           $('[name="idKategori"]').val(data.id);
           $('[name="nama_kategori2"]').val(data.nama_kategori);
+          $('[name="syarat2"]').val(data.syarat);
+          $('[name="tugas2"]').val(data.tugas);
           $('#modalEdit').modal('show');
         }        
       })
@@ -160,11 +174,21 @@
             if(data.nama_kategori2_error['nama_kategori'] != '') $('#nama_kategori2_error').html(data.nama_kategori2_error['nama_kategori']); 
             else $('#nama_kategori2_error').html('');
           }
+          if(data.error){
+            if(data.nama_kategori2_error['syarat2'] != '') $('#syarat2_error').html(data.syarat2_error['syarat']); 
+            else $('#syarat2_error').html('');
+          }
+          if(data.error){
+            if(data.tugas2_error['tugas2'] != '') $('#tugas2_error').html(data.tugas2_error['tugas']); 
+            else $('#tugas2_error').html('');
+          }
           //Data kategori berhasil disimpan
           if(data.success){
             formUpdate.trigger('reset');
             $('#modalEdit').modal('hide');
             $('#nama_kategori2_error').html('');
+            $('#syarat2_error').html('');
+            $('#tugas2_error').html('');
             $('#example1').DataTable().ajax.reload();
             toastr.info('Data kategori berhasil diupdate.');
           }

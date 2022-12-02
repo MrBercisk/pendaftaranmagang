@@ -68,5 +68,3 @@ class InformasiModel extends Model
 
 }
 
-/* End of file InformasiModel.php */
-/* Location: .//C/xampp/htdocs/app-pmb/app/Models/InformasiModel.php */

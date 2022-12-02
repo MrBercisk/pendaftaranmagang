@@ -3,6 +3,7 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
     <h1 class="logo mr-auto"><a href="#">E-Magang<span> Diskominfosan</span></a></h1>
     <nav class="nav-menu d-none d-lg-block">
       <ul>
@@ -42,10 +43,13 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
             <div class="member-img">
-              <img src="/file_peserta/<?=$resume['foto']; ?>" class="img-fluid" id="previewImg" alt="">
+              <img src="/file_peserta/<?= $resume['foto']; ?>" class="img-fluid" id="previewImg" alt="">
+              <h5 class="text-center"><?= $resume['keahlian']; ?></h5>
+              <h4 class="text-center"><?= $resume['nama_peserta']; ?></h4>
             </div>
+
             <!-- Preview Berkas Pendaftaran -->
-            <button type="button" class="btn btn-light col-lg mt-2" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-primary col-lg mt-2" data-toggle="modal" data-target="#exampleModal">
               Preview Berkas Pendaftaran
             </button>
           </div>
@@ -62,6 +66,9 @@
             <li class="nav-item" role="presentation">
               <a class="nav-link" id="bagian-tab" data-toggle="tab" href="#bagian" role="tab" aria-controls="bagian" aria-selected="false">Bagian/Kategori</a>
             </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="periode-tab" data-toggle="tab" href="#periode" role="tab" aria-controls="periode" aria-selected="false">Periode Magang</a>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -77,27 +84,38 @@
                   <tr>
                     <th scope="row">1</th>
                     <td>Nama</td>
-                    <td><?=$resume['nama_peserta']; ?></td>
+                    <td><?= $resume['nama_peserta']; ?></td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Keahlian</td>
-                    <td><?=$resume['keahlian']; ?></td>
+                    <td><?= $resume['keahlian']; ?></td>
                   </tr>
                   <tr>
+                  <tr>
                     <th scope="row">3</th>
-                    <td>Alamat</td>
-                    <td><?=$resume['alamat_peserta']; ?></td>
+                    <td>Tools Yang Dikuasai</td>
+                    <td><?= $resume['tools']; ?></td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
+                    <td>Judul Project</td>
+                    <td><?= $resume['judul']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Alamat</td>
+                    <td><?= $resume['alamat_peserta']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
                     <td>No. Handphone</td>
-                    <td><?=$resume['no_hp']; ?></td>
+                    <td><?= $resume['no_hp']; ?></td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            
+
             <div class="tab-pane fade" id="kampus" role="tabpanel" aria-labelledby="kampus-tab">
               <table class="table table-striped mt-4">
                 <thead>
@@ -111,7 +129,35 @@
                   <tr>
                     <th scope="row">1</th>
                     <td>Nama Kampus</td>
-                    <td><?=$resume['nama_kampus']; ?></td>
+                    <td><?= $resume['nama_kampus']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Program Studi</td>
+                    <td><?= $resume['prodi']; ?></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="tab-pane fade" id="periode" role="tabpanel" aria-labelledby="periode-tab">
+              <table class="table table-striped mt-4">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Periode</th>
+                    <th scope="col">Keterangan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Tanggal Mulai</td>
+                    <td><?= $resume['tanggal_mulai']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Tanggal Selesai</td>
+                    <td><?= $resume['tanggal_selesai']; ?></td>
                   </tr>
                 </tbody>
               </table>
@@ -126,35 +172,37 @@
                   </tr>
                 </thead>
                 <tbody>
-                <tr>
+                  <tr>
                     <th scope="row">1</th>
                     <td>Bidang</td>
-                    <td><?=$nama_bidang; ?></td>
+                    <td><?= $nama_bidang; ?></td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Kategori</td>
-                    <td><?=$nama_kategori; ?></td>
+                    <td><?= $nama_kategori; ?></td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Jenis Permohonan</td>
-                    <td><?=$resume['jenis_permohonan']; ?></td>
+                    <td><?= $resume['jenis_permohonan']; ?></td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
                     <td>Status Permohonan</td>
-                    <td><?=$resume['status_permohonan'] ; ?></td>
+                    <td><?= $resume['status_permohonan']; ?></td>
                   </tr>
+
                 </tbody>
               </table>
             </div>
           </div>
 
           <form id="formFinalisasi" method="post" role="form" class="php-email-form">
-            <input type="hidden" name="idPendaftaran" value="<?=$resume['id']; ?>" />
+            <input type="hidden" name="idPendaftaran" value="<?= $resume['id']; ?>" />
             <!-- Tombol Simpan -->
             <div class="mt-2">
+              <h4 class="notif">Silahkan Cek Data Terlebih Dahulu Untuk Finalisasi Pendaftaran, Ketika Finalisasi Berhasil Maka Data Sudah <b>Tidak Bisa Diubah</b> </h4>
               <button class="col-lg-4" type="submit" id="btn-finalisasi">Finalisasi Pendaftaran</button>
             </div>
           </form>
@@ -172,13 +220,13 @@
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Preview Berkas Pendaftaran <?=$resume['nama_peserta']; ?></h5>
+        <h5 class="modal-title" id="exampleModalLabel">Preview Berkas Pendaftaran <?= $resume['nama_peserta']; ?></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <embed src="/file_peserta/<?=$resume['berkas']; ?>" type="application/pdf" width="100%" height="450px">
+        <embed src="/file_peserta/<?= $resume['berkas']; ?>" type="application/pdf" width="100%" height="450px">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
@@ -193,17 +241,17 @@
   $(document).ready(function() {
 
     //Submit Finalisasi Pendaftaran
-    $('#btn-finalisasi').on('click', function(){
+    $('#btn-finalisasi').on('click', function() {
       const formfinalisasi = $('#formFinalisasi');
-      
+
       $.ajax({
-        url: "<?php echo base_url('pendaftaran/finalisasiPendaftaran')?>",
+        url: "<?php echo base_url('pendaftaran/finalisasiPendaftaran') ?>",
         method: "POST",
         data: formfinalisasi.serialize(),
         dataType: "JSON",
-        success: function (data) {
+        success: function(data) {
           //Pendaftaran tahap dua sukses
-          if(data.success){
+          if (data.success) {
             Swal.fire({
               icon: 'success',
               title: 'Finalisasi pendaftaran berhasil!',
@@ -212,16 +260,14 @@
             });
             window.location.replace(data.link);
           }
-            
+
         }
-        
+
       });
 
     });
     //-------------------------------------------------------------------
 
   });
-
 </script>
 <?= $this->endSection() ?>
-

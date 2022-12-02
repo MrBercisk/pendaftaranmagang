@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 class KategoriModel extends Model  
 {
 	protected $table = "tbl_kategori";
-	protected $allowedFields = ['bidang_id','nama_kategori'];
-	protected $column_order = [null, 'nama_kategori', null];
+	protected $allowedFields = ['bidang_id','nama_kategori','syarat','tugas'];
+	protected $column_order = [null, 'nama_kategori', 'syarat', 'tugas', null];
 	protected $column_search = ['nama_kategori'];
 	protected $order = ['id' => 'desc'];
 	protected $request;

@@ -7,10 +7,10 @@ class PendaftaranModel extends Model
 {
 
 	protected $table = "tbl_pendaftaran";
-	protected $allowedFields = ['user_id', 'bidang_id', 'kategori_id', 'nomor_pendaftaran', 'nama_peserta', 'jenis_permohonan', 'nama_kampus', 'keahlian', 'surat_permohonan', 'no_hp', 'alamat_peserta', 'status_permohonan', 'video_perkenalan', 'foto', 'berkas', 'tahap_satu', 'tahap_dua', 'tahap_tiga', 'tanggal_pendaftaran', 'status_pendaftaran', 'status_verifikasi'];
+	protected $allowedFields = ['user_id', 'bidang_id', 'kategori_id', 'nomor_pendaftaran', 'nama_peserta', 'jenis_permohonan', 'nama_kampus', 'prodi' , 'keahlian','nda' ,'tools','judul','tanggal_mulai','tanggal_selesai', 'surat_permohonan', 'no_hp', 'alamat_peserta', 'status_permohonan', 'video_perkenalan', 'foto', 'berkas', 'tahap_satu', 'tahap_dua', 'tahap_tiga', 'tanggal_pendaftaran', 'status_pendaftaran', 'status_verifikasi'];
 	protected $useTimestamps = true;
-	protected $column_order = [null, 'nomor_pendaftaran', 'nama_peserta', 'nama_kategori','tanggal_pendaftaran','jenis_permohonan','status_permohonan','status_verifikasi', null];
-	protected $column_search = ['nomor_pendaftaran', 'nama_peserta', 'nama_kategori','tanggal_pendaftaran', 'jenis_permohonan' ,'status_verifikasi'];
+	protected $column_order = [null, 'nomor_pendaftaran', 'nama_peserta', 'nama_kategori','tanggal_pendaftaran','jenis_permohonan','status_permohonan','nama_kampus', 'prodi' , 'keahlian', 'tools','judul', 'tanggal_mulai','tanggal_selesai','status_verifikasi', null];
+	protected $column_search = ['nomor_pendaftaran', 'nama_peserta', 'nama_kategori', 'nama_kampus', 'prodi' , 'keahlian', 'tools','judul','tanggal_pendaftaran', 'jenis_permohonan' ,'status_verifikasi'];
 	protected $order = ['tbl_pendaftaran.id' => 'desc'];
 	protected $request;
 	protected $db;

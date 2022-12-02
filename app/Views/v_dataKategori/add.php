@@ -15,6 +15,16 @@
             <input type="text" class="form-control" name="nama_kategori" placeholder="Nama Kategori">
             <small id="nama_kategori_error" class="text-danger"> </small>
           </div>
+          <div class="form-group">
+            <label for="syarat">Syarat Magang</label>
+            <input type="text" class="form-control" name="syarat" placeholder="Syarat Magang">
+            <small id="syarat_error" class="text-danger"> </small>
+          </div>
+          <div class="form-group">
+            <label for="tugas">Tugas Magang</label>
+            <input type="text" class="form-control" name="tugas" placeholder="Tugas Magang">
+            <small id="tugas_error" class="text-danger"> </small>
+          </div>
         </div>
       </form>
       <div class="modal-footer justify-content-between">

@@ -63,11 +63,15 @@ class DataKategori extends BaseController
 	{
 		$bidang_id = $this->request->getPost('bidang_id');
 		$nama_kategori = ucwords($this->request->getPost('nama_kategori'));
+		$syarat = ucwords($this->request->getPost('syarat'));
+		$tugas = ucwords($this->request->getPost('tugas'));
 		
 		//Data kategori
 		$data = [ 
 			'bidang_id' => $bidang_id,
-			'nama_kategori' => $nama_kategori
+			'nama_kategori' => $nama_kategori,
+			'syarat' => $syarat,
+			'tugas' => $tugas
 		];
 
 		//Cek Validasi Data kategori, Jika Data Tidak Valid 
@@ -75,7 +79,9 @@ class DataKategori extends BaseController
 			
 			$validasi = [
 				'error'   => true,
-			    'nama_kategori_error' => $this->form_validation->getErrors('nama_kategori')
+			    'nama_kategori_error' => $this->form_validation->getErrors('nama_kategori'),
+			    'syarat_error' => $this->form_validation->getErrors('syarat'),
+			    'tugas_error' => $this->form_validation->getErrors('tugas'),
 			];
 			echo json_encode($validasi);
 		}
@@ -104,10 +110,14 @@ class DataKategori extends BaseController
 	{
 		$id = $this->request->getPost('idKategori');
 		$nama_kategori = ucwords($this->request->getPost('nama_kategori2'));
+		$syarat = ucwords($this->request->getPost('syarat2'));
+		$tugas = ucwords($this->request->getPost('tugas2'));
 		
 		//Data bidang
 		$data = [ 
-			'nama_kategori' => $nama_kategori
+			'nama_kategori' => $nama_kategori,
+			'syarat' => $syarat,
+			'tugas' => $tugas,
 		];
 
 		//Cek Validasi Data bidang, Jika Data Tidak Valid 
@@ -115,7 +125,9 @@ class DataKategori extends BaseController
 			
 			$validasi = [
 				'error'   => true,
-			    'nama_kategori2_error' => $this->form_validation->getErrors('nama_kategori')
+			    'nama_kategori2_error' => $this->form_validation->getErrors('nama_kategori'),
+			    'syarat2_error' => $this->form_validation->getErrors('syarat'),
+			    'tugas2_error' => $this->form_validation->getErrors('tugas')
 			];
 			echo json_encode($validasi);
 		}
@@ -153,6 +165,8 @@ class DataKategori extends BaseController
                 $row = [];
                 $row[] = $no;
                 $row[] = $list->nama_kategori;
+                $row[] = $list->syarat;
+                $row[] = $list->tugas;
                 $row[] = $this->_action($list->id);
                 $data[] = $row;
 	    	}

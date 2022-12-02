@@ -1,5 +1,0 @@
-superadmin@diskominfo.ac.id
-pass = admin123
-
-sara@gmail.com
-sara123
