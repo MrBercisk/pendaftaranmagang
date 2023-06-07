@@ -1,31 +1,8 @@
 <?= $this->extend('layouts_peserta/template_peserta') ?>
 
-<?= $this->section('header') ?>
-<header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center">
-  <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
-    <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">E-Magang<span> Diskominfosan</span></a></h1>
-  </div>
-</header>
-<?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
 <main id="main">
-
-  <!-- ======= Breadcrumbs ======= -->
-  <section class="breadcrumbs">
-    <div class="container">
-
-      <div class="d-flex justify-content-between align-items-center">
-        <h2>Pendaftaran</h2>
-        <ol>
-          <li><a href="<?php echo base_url('/'); ?>">Home</a></li>
-          <li>Pendaftaran</li>
-        </ol>
-      </div>
-
-    </div>
-  </section>
 
   <!-- ======= Pendaftaran ======= -->
   <section id="contact" class="contact">
@@ -49,6 +26,7 @@
                 <span class="input-group-text" id="basic-addon1"><i class="icofont-users-alt-5"></i></span>
               </div>
               <input type="text" class="form-control" name="nama" placeholder="Nama Lengkap" autofocus/>
+              <p class="text-danger">*</p>
             </div>
             <small id="nama_error" class="form-text text-danger mb-3"></small>
             
@@ -66,6 +44,7 @@
               </div>
               <input type="password" class="form-control" id="password" name="password" placeholder="Password"/>
             </div>
+            <p class="text-danger mt-2">**Password Minimal 8 Karakter</p>
             <small id="password_error" class="form-text text-danger mb-3"></small>
 
             <div class="input-group">

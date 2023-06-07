@@ -7,11 +7,12 @@
   <title><?= $title; ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="http://localhost/app-pmb2/public/assets/logo.png">
+  <link rel="icon" href="http://localhost/diskominfosan/public/assets/logo.png">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="/assets/adminlte3/plugins/fontawesome-free/css/all.min.css">
   <!-- daterange picker -->
   <link rel="stylesheet" href="/assets/adminlte3/plugins/daterangepicker/daterangepicker.css">
+
   <!-- SweetAlert2 -->
   <link rel="stylesheet" href="/assets/adminlte3/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
   <!-- Toastr -->
@@ -25,6 +26,64 @@
   <link rel="stylesheet" href="/assets/adminlte3/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="/assets/adminlte3/dist/css/adminlte.min.css">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.6/index.global.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        header: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'dayGridMonth,timeGridWeek,timeGridDay'
+        },
+        initialDate: new Date(),
+        editable: true,
+        locale: 'id', // set bahasa ke bahasa Indonesia
+        eventLimit: true,
+        events: [
+          <?php foreach ($events as $event) { ?> {
+              title: '<?php echo substr($event->jam_bimbingan, 0, 5); ?> <?php echo $event->nama_peserta; ?> - <?php echo $event->judul; ?>',
+              start: '<?php echo $event->tanggal_bimbingan; ?>',
+              extendedProps: {
+                id: '<?php echo $event->id; ?>',
+                nama_peserta: '<?php echo $event->nama_peserta; ?>',
+                judul: '<?php echo $event->judul; ?>',
+                tanggal_mulai: '<?php echo $event->tanggal_mulai; ?>',
+                tanggal_selesai: '<?php echo $event->tanggal_selesai; ?>',
+                jam_bimbingan: '<?php echo $event->jam_bimbingan; ?>',
+                tanggal_bimbingan: '<?php echo $event->tanggal_bimbingan; ?>',
+              },
+            },
+          <?php } ?>
+        ],
+
+        // tambahkan kode styling berikut
+        eventColor: 'linear-gradient(to bottom right, #008080, #42a895)', // set warna event
+        eventTextColor: '#FFFFFF', // set warna teks event
+        // tambahkan tindakan eventClick untuk menampilkan detail pada setiap event
+        eventClick: function(info) {
+          var event = info.event;
+          var detail = "<div style='background-color: #FFFFFF; border-radius: 10px; padding: 10px;'>" +
+            "<div style='font-weight: bold;'>" + event.extendedProps.jam_bimbingan + " - " + event.extendedProps.tanggal_bimbingan + " - " + event.extendedProps.nama_peserta + " - " + event.extendedProps.judul + "</div>" +
+            "<div><p>Tanggal Mulai dan Tanggal Selesai</p>" + event.extendedProps.tanggal_mulai + " - " + event.extendedProps.tanggal_selesai + "</div>" +
+            "</div>";
+          // tampilkan detail pada dialog sweetalert
+          Swal.fire({
+            title: 'Detail Kegiatan',
+            html: detail,
+            icon: 'info',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText: 'Ok',
+          });
+        },
+      });
+      calendar.render();
+    });
+  </script>
+
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -44,14 +103,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container py-4">
-        <div class="copyright">
-          <strong>Copyright &copy; <script>
-              document.write(new Date().getFullYear());
-            </script> <a href="#">DISKOMINFOSAN</a>.</strong> All rights reserved.
-        </div>
-        <div class="credits">
-          <b>Kota Yogyakarta</b>
-        </div>
+
       </div>
     </footer><!-- End Footer -->
 
@@ -69,6 +121,8 @@
   <script src="/assets/adminlte3/plugins/daterangepicker/daterangepicker.js"></script>
   <!-- SweetAlert2 -->
   <script src="/assets/adminlte3/plugins/sweetalert2/sweetalert2.min.js"></script>
+  <!-- chart js -->
+  <script src="/assets/adminlte3/plugins/chart.js/Chart.min.js"></script>
   <!-- Toastr -->
   <script src="/assets/adminlte3/plugins/toastr/toastr.min.js"></script>
   <!-- DataTables -->
@@ -84,7 +138,7 @@
   <script src="/assets/adminlte3/dist/js/adminlte.min.js"></script>
   <!-- AdminLTE for demo purposes -->
   <script src="/assets/adminlte3/dist/js/demo.js"></script>
-  <!-- page script -->
+
   <?= $this->renderSection('script') ?>
 </body>
 

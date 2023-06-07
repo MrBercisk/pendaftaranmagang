@@ -1,0 +1,94 @@
+/*
+|--------------------------------------------------------------------------------------------------------
+| Sistem Informasi Aplikasi Magang (SIAMANG) Dinas Komunikasi Informatika dan Persandian Kota Yogyakarta
+|--------------------------------------------------------------------------------------------------------
+| Aplikasi ini dibuat untuk memenuhi Tugas Akhir Semester 6 Outline Proyek Sistem Informasi
+| Universitas Bina Sarana Informatika
+| Fakultas Teknik & Informatika
+| Program Studi Sistem Informasi 
+|
+| @programmer Bimo Satrio Putra Pradana (Full Stack Developer)
+|	      Sara Puja Kesuma (Front End Developer)
+|	      Darmanto (Back End Developer)
+|
+| Aplikasi ini memiliki 3 user yakni:
+| 	- Superadmin (Pengelola sistem)
+| 	- Mentor
+|	- Mahasiswa
+|
+| Superadmin dapat:
+|	- Melakukan login
+|	- Mengelola informasi pendaftaran
+|	- Mengelola data bidang
+|	- Mengelola data kategori
+|	- Mengelola data pendaftaran
+|	- Menerima email jika ada pendaftar baru
+|	- Mengirim email ke peserta jika peserta diterima atau tidak
+|	- Mengelola data mentor
+|	- Mengelola daftar kampus
+|	- Mengelola jadwal magang peserta
+|	- Mengelola laporan magang peserta
+|	- Mengelola progress magang peserta
+|
+| Mentor dapat : 
+|	- Melakukan login
+|	- Melakukan forgot password jika lupa password
+|	- Melakukan update password untuk mengganti password lama dengan yang baru
+|	- Mengelola pendaftar magang berdasarkan kategori mentor
+|	- Melakukan input nilai magang peserta berdasarkan kategori mentor jika peserta sudah selesai magang dan upload laporan
+|	- Mengelola laporan magang mahasiswa berdasarkan kategori mentor
+|	- Mengelola progress magang mahasiswa berdasarkan kategori mentor
+|
+| Mahasiswa dapat:
+|	- Mengunjungi halaman utama website
+|	- Membuat akun pendaftaran
+|	- Melakukan login
+|	- Melakukan forgot password jika lupa password
+|	- Melakukan pendaftran:
+|		* Tahap satu (Mengisi Biodata)
+|		* Tahap dua  (Memilih bidang dan kategori)
+|		* Tahap tiga (Upload Berkas Pendaftaran dan video)
+|		* Tahap empat (Resume Pendaftaran)
+|	- Mencetak surat diterima magang pada halaman magang
+|	- Mengecek jadwal magang
+|	- Melakukan update password untuk mengganti password lama dengan yang baru
+|	- Melakukan input progress magang tiap bimbingan jika magang sudah dimulai
+|	- Melakukan input laporan magang jika magang sudah selesai
+|	- Mahasiswa dapat melakukan download form nilai dan surat selesai magang jika waktu magang telah selesai
+|	  Dan mahasiswa sudah upload laporan.
+|
+| 
+| Email dan password (default) login Aplikasi:
+| No.	Email						Password	User Role
+| 1.	admin@diskominfosan.ac.id			admin123	admin
+*/
+
+Alur program SIAMANG
+1. Mahasiswa melakukan pendaftaran akun
+2. Setelah mendaftar maka mahasiswa melakukan login
+3. Mahasiswa masuk ke halaman tahap 1 yaitu input biodata, klik submit
+4. Mahasiswa ke halaman tahap 2 yaitu input bidang dan kategori yang sesuai, klik submit
+5. Mahasiswa ke halaman tahap 3 yaitu input berkas, klik submit
+6. Mahasiswa ke halaman tahap 4 yaitu finalisasi pendaftaran jika sudah yakin, klik finalisasi pendaftaran
+7. Masuk ke dashboard yang berisi data-data yang sudah di input dan menunggu pemberitahuan diterima atau tidak
+8. Mahasiswa menerima notifikasi diterima atau tidak melalui aplikasi siamang dan email
+9. Mahasiswa mendapatkan link untuk masuk ke halaman magang
+10. Mahasiswa masuk ke halaman magang kemudian melihat jadwal bimbingan jika sudah tersedia
+11. Mahasiswa setiap bimbingan mengisi progress pada menu progress
+12. Jika magang sudah selesai maka mahasiswa upload laporan
+13. Jika sudah upload laporan maka akan muncul halaman file selesai magang
+14. Pada halaman selesai magang terdapat 2 file yaitu form nilai dan surat selesai magang
+15. Jika file masih kosong mahasiswa mohon menunggu sampai mentor mengisi
+16. Halaman file selesai magang dapat diakses jika waktu magang telah selesai/melebihi tanggal selesai
+17. Jika sudah terisi silahkan download file berikut
+18. Selesai Magang
+
+
+
+
+
+
+
+
+
+	 

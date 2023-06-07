@@ -3,16 +3,18 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
-    <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
-    <h1 class="logo mr-auto"><a href="#">E-Magang<span> Diskominfosan</span></a></h1>
+
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="35px">
+    <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">SI AMANG</a></h1>
+
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="<?php echo base_url('pendaftaran/logout'); ?>">Logout</a></li>
+      <li><a href="<?php echo base_url('pendaftaran/logout'); ?>"><i class='bx bx-log-out'></i> Logout</a></li>
       </ul>
-    </nav>
+    </nav><!-- .nav-menu -->
+
   </div>
-</header>
+</header><!-- End Header -->
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
@@ -51,14 +53,19 @@
         <div class="col-lg">
           <form id="formUploadBerkas" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
             <input type="hidden" name="idPendaftaran" value="<?= $idPendaftaran; ?>" />
+            <label for="tahun" class="mt-3">NDA(Non Disclosure Agreement) Yang Telah Terisi Dengan Biodata Mahasiswa</label>
+            <div class="custom-file mb-3">
+              <a href="<?php echo base_url('pendaftaran/nda_login'); ?>" type="button" class="btn btn-primary col-lg-4 mt-2 " type="submit" id="btn-cetakKartu" target="_blank">Cetak NDA Mahasiswa</a>
+            </div>
             <!-- Upload Berkas Pendaftaran -->
-            <label for="tahun">Pas photo 3 x 4 (Ukuran Max. 500Kb Dengan Format .jpg)</label>
+            <label for="tahun">Pas photo 3 x 4 (Ukuran Max. 500Kb Dengan Format .jpg)<span style="color:red"> *</span></label>
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="foto" name="foto" onchange="previewFile(this);">
               <small id="foto_error" class="form-text text-danger mb-3"></small>
               <label class="custom-file-label" for="foto"><?= $foto_peserta; ?></label>
             </div>
-         <!--    <label for="tahun">Ambil Gambar (Webcam) </label>
+            <!-- Live webcam untuk take foto live -->
+            <!--    <label for="tahun">Ambil Gambar (Webcam) </label>
             <div class="custom-file">
               <div id="my_camera">
 
@@ -72,25 +79,27 @@
               <div class="col-sm-6" id="results"></div>
               <input type="hidden" name="foto" id="foto" class="image-tag">
             </div> -->
-            <label for="tahun" class="mt-3">Berkas syarat pendaftaran dalam 1 file (Ukuran Max. 2Mb Dengan Format .pdf)</label>
+            <!-- End live webcam -->
+
+            <label for="tahun" class="mt-3">Berkas syarat pendaftaran dalam 1 file (Ukuran Max. 2Mb Dengan Format .pdf)<span style="color:red"> *</span></label>
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="berkas" name="berkas">
               <small id="berkas_error" class="form-text text-danger mb-3"></small>
               <label class="custom-file-label" for="berkas"><?= $berkas_peserta; ?></label>
             </div>
-            <label for="tahun" class="mt-3">Surat NDA Perjanjian Magang Mahasiswa(Yang sudah ditanda tangan peserta)</label>
+            <label for="tahun" class="mt-3">Surat NDA Perjanjian Magang Mahasiswa(Yang sudah ditanda tangan peserta)<span style="color:red"> *</span></label>
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="nda" name="nda">
               <small id="nda_error" class="form-text text-danger mb-3"></small>
               <label class="custom-file-label" for="nda"><?= $nda; ?></label>
             </div>
-            <label for="tahun" class="mt-3">Surat Permohonan (Ukuran Max. 1Mb Dengan Format .pdf)</label>
+            <label for="tahun" class="mt-3">Surat Permohonan (Ukuran Max. 1Mb Dengan Format .pdf)<span style="color:red"> *</span></label>
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="surat_permohonan" name="surat_permohonan">
               <small id="surat_permohonan_error" class="form-text text-danger mb-3"></small>
               <label class="custom-file-label" for="surat_permohonan"><?= $surat_permohonan; ?></label>
             </div>
-            <label for="tahun" class="mt-3">Video Perkenalan (Ukuran Max. 20Mb Dengan Format .mp4)</label>
+            <label for="tahun" class="mt-3">Video Perkenalan (Ukuran Max. 20Mb Dengan Format .mp4)<span style="color:red"> *</span></label>
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="video_perkenalan" name="video_perkenalan">
               <small id="video_perkenalan_error" class="form-text text-danger mb-3"></small>
@@ -192,7 +201,7 @@
 
             if (res.tahap_tiga_error['surat_permohonan'] != '') $('#surat_permohonan_error').html(res.tahap_tiga_error['surat_permohonan']);
             else $('#surat_permohonan_error').html('');
-            
+
             if (res.tahap_tiga_error['video_perkenalan'] != '') $('#video_perkenalan_error').html(res.tahap_tiga_error['video_perkenalan']);
             else $('#video_perkenalan_error').html('');
           }

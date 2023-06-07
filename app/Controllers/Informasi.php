@@ -2,12 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\PendaftaranModel;
+use App\Models\JadwalModel;
 use App\Models\InformasiModel;
 use Config\Services;
 
 class Informasi extends BaseController
 {
 
+	protected $M_pendaftaran;
+	protected $M_jadwal;
 	protected $M_informasi;
 	protected $request;
 	protected $form_validation;
@@ -18,6 +22,8 @@ class Informasi extends BaseController
 		date_default_timezone_set('Asia/Jakarta');
 		$this->request = Services::request();
 		$this->M_informasi = new InformasiModel($this->request);
+		$this->M_jadwal = new JadwalModel($this->request);
+		$this->M_pendaftaran = new PendaftaranModel($this->request);
 		$this->form_validation =  \Config\Services::validation();
 		$this->session = \Config\Services::session();
 	}
@@ -36,10 +42,23 @@ class Informasi extends BaseController
 	// Halaman Informasi
 	public function index()
 	{
-		$data['title']  = "E-Magang | Informasi";
+		$data['title']  = "SI AMANG | Informasi";
 		$data['page']   = "informasi";
+
+		// periksa apakah session masih ada atau tidak
+		if (!$this->session->has('nama') || !$this->session->has('email')) {
+			return redirect()->to('/login');
+		}
 		$data['nama']   = $this->session->get('nama');
 		$data['email']   = $this->session->get('email');
+
+		// Ambil data pendaftaran yang terbaru dan belum diterima
+		$data['tbl_pendaftaran'] = $this->M_pendaftaran->where('status_verifikasi', 'Belum Verifikasi')
+			->orderBy('created_at', 'DESC')
+			->findAll();
+		$data['jumlah_pendaftaran'] = count($data['tbl_pendaftaran']);
+		$data['events'] = $this->M_jadwal->getEvents();
+
 		return view('v_informasi/index', $data);
 	}
 

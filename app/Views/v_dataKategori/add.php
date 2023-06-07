@@ -16,14 +16,19 @@
             <small id="nama_kategori_error" class="text-danger"> </small>
           </div>
           <div class="form-group">
-            <label for="syarat">Syarat Magang</label>
-            <input type="text" class="form-control" name="syarat" placeholder="Syarat Magang">
+            <label for="syarat">Project yang Tersedia</label>
+            <input type="text" class="form-control" name="syarat" placeholder="Project yang Tersedia">
             <small id="syarat_error" class="text-danger"> </small>
           </div>
           <div class="form-group">
-            <label for="tugas">Tugas Magang</label>
-            <input type="text" class="form-control" name="tugas" placeholder="Tugas Magang">
+            <label for="tugas">Definisi</label>
+            <input type="text" class="form-control" name="tugas" placeholder="Definisi">
             <small id="tugas_error" class="text-danger"> </small>
+          </div>
+          <div class="form-group">
+            <label for="fitur">Fitur yang Dibutuhkan</label>
+            <input type="text" class="form-control" name="fitur" placeholder="Fitur yang Dibutuhkan">
+            <small id="fitur_error" class="text-danger"> </small>
           </div>
         </div>
       </form>

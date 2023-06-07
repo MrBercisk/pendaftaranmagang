@@ -1,4 +1,3 @@
-#!/usr/bin/env php
 <?php
 
 /*
@@ -24,8 +23,7 @@ define('SPARKED', true);
  */
 
 // Refuse to run when called from php-cgi
-if (strpos(php_sapi_name(), 'cgi') === 0)
-{
+if (strpos(php_sapi_name(), 'cgi') === 0) {
 	die("The cli tool is not supported when running php-cgi. It needs php-cli to function!\n\n");
 }
 
@@ -55,7 +53,6 @@ $console->showHeader();
 
 // fire off the command in the main framework.
 $response = $console->run();
-if ($response->getStatusCode() >= 300)
-{
+if ($response->getStatusCode() >= 300) {
 	exit($response->getStatusCode());
 }

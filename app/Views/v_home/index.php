@@ -4,15 +4,16 @@
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
 
-  <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
-    <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">E-Magang<span> Diskominfosan</span></a></h1>
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="35px">
+    <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">SI AMANG</a></h1>
 
     <nav class="nav-menu d-none d-lg-block">
       <ul>
         <li class="active"><a href="<?php echo base_url('/'); ?>">Home</a></li>
         <li><a href="#info">Info Magang</a></li>
+        <li><a href="#pedoman">Pedoman</a></li>
         <li><a href="#panduan">Panduan Magang</a></li>
-        <li><a href="<?php echo base_url('login'); ?>">Masuk</a></li>
+        <li><a href="<?php echo base_url('login'); ?>"><i class='bx bx-log-in'></i> Login</a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -22,18 +23,69 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
   <div class="container" data-aos="zoom-out" data-aos-delay="100">
-    <h1>Magang<span> Diskominfosan</spa>
-    </h1>
-    <h2>Aplikasi Pendaftaran Magang Mahasiswa - Kota Yogyakarta</h2>
-    <div class="d-flex">
-      <a href="<?php echo base_url('pendaftaran'); ?>" class="btn-get-started scrollto">Daftar Sekarang</a>
+    <div class="row">
+      <div class="text col lg-8">
+        <h1>SI AMANG</h1>
+        <h2>Sistem Informasi Aplikasi Magang DISKOMINFOSAN Kota Yogyakarta memudahkan untuk mendaftar magang bagi mahasiswa di Kota Yogyakarta</h2>
+        <div class="d-flex">
+          <a href="<?php echo base_url('pendaftaran'); ?>" class="btn-get-started scrollto"> Daftar Sekarang</a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <lottie-player class="animasi" src="https://assets6.lottiefiles.com/private_files/lf30_vAtD7F.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
+      </div>
     </div>
+
   </div>
 </section><!-- End Hero -->
+
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
 <main id="main">
+  <section id="kategori">
+    <div class="container data-aos=" fade-up"">
+      <div class="row mb-3">
+        <div class="section-title col-md-12" data-aos="fade-up">
+          <h3>Pilihan<span> Bidang dan Kategori</span> Yang Tersedia</h3>
+          <p>Terdapat beberapa pilihan Bidang dan Kategori yang sesuai dengan keahlian dan tools yang anda kuasai</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4 p-4" data-aos="fade-up">
+          <div class="row">
+            <div class="col-12">
+              <img src="assets/bizland/img/Bidang dan Kategori/1.png" class="card-img img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 p-4" data-aos="fade-up">
+          <div class="row ">
+            <div class="col-12">
+              <img src="assets/bizland/img/Bidang dan Kategori/2.png" class="card-img img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4 p-4" data-aos="fade-up">
+          <div class="row ">
+            <div class="col-12">
+              <img src="assets/bizland/img/Bidang dan Kategori/4.png" class="card-img img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 p-4" data-aos="fade-up">
+          <div class="row ">
+            <div class="col-12">
+              <img src="assets/bizland/img/Bidang dan Kategori/3.png" class="card-img img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
 
   <!-- ======= Tanggal ======= -->
   <section id="featured-services" class="featured-services">
@@ -123,13 +175,108 @@
         </li>
 
       </ul>
+      <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
 
+        <li class="syarat">
+          <a data-toggle="collapse" class="collapsed" href="#faq2">Lowongan Yang Tersedia <i class="icofont-simple-up"></i></a>
+          <div id="faq2" class="collapse" data-parent=".faq-list">
+            <div class="table-responsive mt-2">
+              <table class="table table-hover">
+                <thead class="text-center">
+                  <tr>
+                    <th>No.</th>
+                    <th>Nama Kategori</th>
+                    <th>Project yang Tersedia</th>
+                    <th>Definisi</th>
+                    <th>Fitur yang Dibutuhkan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <?php $i = 1 ?>
+                  <?php foreach ($kategori as $k) : ?>
+                    <tr>
+                      <td><?= $i++; ?></td>
+                      <td><?= $k['nama_kategori']; ?></td>
+                      <td><?= $k['syarat']; ?></td>
+                      <td><?= $k['tugas']; ?></td>
+                      <td><?= $k['fitur']; ?></td>
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+        <li class="syarat">
+          <a data-toggle="collapse" class="collapsed" href="#faq3">Pendaftar Yang Diterima <i class="icofont-simple-up"></i></a>
+          <div id="faq3" class="collapse" data-parent=".faq-list">
+            <div class="table-responsive mt-2">
+              <table class="table table-hover">
+                <thead class="text-center">
+                  <tr>
+                    <th>No.</th>
+                    <th>Foto</th>
+                    <th>Nomor Pendaftaran</th>
+                    <th>Nama Peserta</th>
+                    <th>Tanggal Mendaftar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <?php $i = 1 ?>
+                  <?php foreach ($pendaftaran as $p) : ?>
+                    <tr>
+                      <td><?= $i++; ?></td>
+                      <td><img src="<?= base_url('/file_peserta/' . $p['foto']); ?>" style="width: 80px; height: 80px; border-radius: 50%;"></td>
+                      <td><?= $p['nomor_pendaftaran']; ?></td>
+                      <td><?= $p['nama_peserta']; ?></td>
+                      <td><?= $p['tanggal_pendaftaran']; ?></td>
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- ======= Pedoman ======= -->
+  <section id="pedoman">
+    <div class="container">
+      <div class="section-title">
+        <!-- <h2>Pedoman</h2> -->
+        <h3>Pedoman <span>Magang Mahasiswa</span></h3>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 pedoman-image" data-aos="flip-right" data-aos-duration="3000">
+            <img src="assets/img/pedoman/pedoman.jpg" alt="Pedoman">
+          </div>
+          <div class="isi-pedoman col-lg-5" data-aos="fade-up" data-aos-duration="3000">
+            <h5>Pedoman magang berisikan hal-hal penting yang harus diperhatikan oleh mahasiswa magang, seperti : </h5>
+            <ul>
+              <li>Aturan Magang</li>
+              <li>Format Laporan</li>
+              <li>Tentang Instansi</li>
+              <li>Untuk selengkapnya <a href="https://docs.google.com/document/d/18MTJJ2lfO7cCuekA1WAfEjBX1N_RkzL7PqrJ4WFtMOE/edit" target="_blank">Klik Disini !</a></li>
+            </ul>
+            <h5 class="card-title"></h5>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ======= Panduan ======= -->
   <section id="panduan">
-    <div class="container-fluid">
+    <div class="container">
       <div class="section-title" data-aos="fade-up">
         <h3>Panduan <span>Magang Mahasiswa</span></h3>
       </div>
@@ -186,6 +333,63 @@
     </div>
   </section>
 
+  <!-- ======= Mentor ======= -->
+  <!-- <section id="team">
+    <div class="container">
+      <div class="section-title">
+        <h2>Team</h2>
+        <h3>Mahasiswa <span>Yang Diterima Magang</span></h3>
+      </div>
+
+      <div class="container">
+        <div class="group">
+          <?php foreach ($pendaftaran as $p) : ?>
+            <img class="img-mentor" src="<?= base_url('/file_peserta/' . $p['foto']); ?>" style="width: 100px; height: 100px;">
+            <h6 class="nama-mentor">Profil Peserta</h6>
+            <p><?= $p['nama_peserta']; ?></p>
+            <p><?= $p['keahlian']; ?></p>
+            <p><?= $p['nama_kampus']; ?></p>
+          <?php endforeach; ?>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <style>
+    .mentor-card {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .img-mentor {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .mentor-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nama-mentor {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .mentor-detail {
+      margin: 0;
+      font-size: 18px;
+    }
+  </style>
+
 
   <input class='chatMenu hidden' id='offchatMenu' type='checkbox' />
   <label class='chatButton' for='offchatMenu'>
@@ -223,9 +427,9 @@
     </a>
   </div>
 
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#42a895" fill-opacity="1" d="M0,288L80,293.3C160,299,320,309,480,298.7C640,288,800,256,960,229.3C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
-  </svg>
+  </svg> -->
 
 </main>
 <?= $this->endSection() ?>

@@ -7,6 +7,8 @@ use App\Models\PendaftaranModel;
 use App\Models\BidangModel;
 use App\Models\KategoriModel;
 use App\Models\InformasiModel;
+use App\Models\KampusModel;
+use App\Models\MentorModel;
 use Config\Services;
 
 class Pendaftaran extends BaseController
@@ -17,6 +19,9 @@ class Pendaftaran extends BaseController
 	protected $M_pendaftaran;
 	protected $M_bidang;
 	protected $M_kategori;
+	protected $M_informasi;
+	protected $M_mentor;
+	protected $M_kampus;
 	protected $session;
 	protected $request;
 
@@ -31,6 +36,8 @@ class Pendaftaran extends BaseController
 		$this->M_bidang = new BidangModel($this->request);
 		$this->M_kategori = new KategoriModel($this->request);
 		$this->M_informasi = new InformasiModel($this->request);
+		$this->M_mentor = new MentorModel($this->request);
+		$this->M_kampus = new KampusModel($this->request);
 		$this->session = \Config\Services::session();
 	}
 
@@ -67,7 +74,8 @@ class Pendaftaran extends BaseController
 	// Halaman pendaftaran - buat akun
 	public function index()
 	{
-		$data['title']   = "E-Magang | Pendaftaran";
+		$data['title']   = "SI AMANG | Pendaftaran";
+		$data['tanggal'] = $this->M_informasi->first();
 
 		//Cek tanggal pendaftaran
 		$tanggal = $this->M_informasi->first();
@@ -114,7 +122,7 @@ class Pendaftaran extends BaseController
 		else {
 			//Data User
 			$data = [
-				'role_id' => 4,
+				'role_id' => 3,
 				'nama' => strtoupper($nama),
 				'email' => $email,
 				'password' => base64_encode($this->encrypter->encrypt($password))
@@ -133,36 +141,43 @@ class Pendaftaran extends BaseController
 		}
 	}
 
-	// Cek status pendaftaran peserta
 	public function cekStatusPendaftaran()
 	{
 		$user_id = $this->session->get('id');
-		//Cek pendaftaran Berdasarkan user_id
+		// Cek pendaftaran berdasarkan user_id
 		$cekStatus = $this->M_pendaftaran->where('user_id', $user_id)->first();
-		//Jika satus pendaftaran selesai
+
+		// Jika status pendaftaran selesai dan status verifikasi diterima
+		if ($cekStatus['status_pendaftaran'] == "Selesai" && $cekStatus['status_verifikasi'] == "Diterima") {
+			return redirect()->to('/updateProfile'); // Ganti dengan link yang sesuai untuk updateProfile
+		}
+
+		// Jika status pendaftaran selesai
 		if ($cekStatus['status_pendaftaran'] == "Selesai") {
 			return redirect()->to('/pendaftaran/dashboard');
 		}
-		//Jika satus pendaftaran resume 
-		else if ($cekStatus['status_pendaftaran'] == "Resume") {
+
+		// Jika status pendaftaran resume
+		if ($cekStatus['status_pendaftaran'] == "Resume") {
 			return redirect()->to('/pendaftaran/tahapempat');
 		}
-		//Jika satus pendaftaran belum selesai 
-		else {
-			return redirect()->to('/pendaftaran/tahapsatu');
-		}
+
+		// Jika status pendaftaran belum selesai
+		return redirect()->to('/pendaftaran/tahapsatu');
 	}
+
 
 	// Halaman pendaftaran tahap satu (Biodata Peserta)
 	public function tahapSatu()
 	{
-		$data['title']   = "E-Magang | Pendaftaran Tahap 1";
+		$data['title']   = "SI AMANG | Pendaftaran Tahap 1";
 
 		//Cek pendaftaran tahap satu berdasarkan user_id
 		$user_id = $this->session->get('id');
 		$cekTahapSatu = $this->M_pendaftaran->where('user_id', $user_id)->first();
 
 		$data['cekTahapSatu'] = $cekTahapSatu;
+		$data['nama_kampus'] = $this->M_kampus->get_nama_kampus();
 
 		return view('v_pendaftaran/tahap_1', $data);
 	}
@@ -175,14 +190,15 @@ class Pendaftaran extends BaseController
 		$keahlian 	= $this->request->getPost('keahlian');
 		$tools 	= $this->request->getPost('tools');
 		$no_hp			= $this->request->getPost('no_hp');
+		$nim			= $this->request->getPost('nim');
 		$nama_kampus	= $this->request->getPost('nama_kampus');
 		$prodi	= $this->request->getPost('prodi');
 		$judul	= $this->request->getPost('judul');
 		$alamat_peserta	= $this->request->getPost('alamat_peserta');
 		$jenis_permohonan	= $this->request->getPost('jenis_permohonan');
 		$status_permohonan	= $this->request->getPost('status_permohonan');
-		$tanggal_mulai	= $this->request->getPost('tanggal_mulai');
-		$tanggal_selesai	= $this->request->getPost('tanggal_selesai');
+		$nama_anggota_1	= $this->request->getPost('nama_anggota_1');
+		$nama_anggota_2	= $this->request->getPost('nama_anggota_2');
 
 		//Validasi pendaftaran tahap satu
 		$validasi_tahap_satu = [
@@ -190,14 +206,15 @@ class Pendaftaran extends BaseController
 			'keahlian' => $keahlian,
 			'tools' => $tools,
 			'no_hp' => $no_hp,
+			'nim' => $nim,
 			'alamat_peserta' => $alamat_peserta,
 			'nama_kampus' => $nama_kampus,
 			'prodi' => $prodi,
 			'judul' => $judul,
 			'jenis_permohonan' => $jenis_permohonan,
 			'status_permohonan' => $status_permohonan,
-			'tanggal_mulai' => $tanggal_mulai,
-			'tanggal_selesai' => $tanggal_selesai
+			'nama_anggota_1' => $nama_anggota_1,
+			'nama_anggota_2' => $nama_anggota_2,
 		];
 
 		//Cek Validasi pendaftaran tahap satu, Jika Data Tidak Valid 
@@ -218,14 +235,15 @@ class Pendaftaran extends BaseController
 				'keahlian' => $keahlian,
 				'tools' => $tools,
 				'no_hp' => $no_hp,
+				'nim' => $nim,
 				'alamat_peserta' => $alamat_peserta,
 				'nama_kampus' => strtoupper($nama_kampus),
 				'prodi' => $prodi,
 				'judul' => $judul,
 				'jenis_permohonan' => $jenis_permohonan,
 				'status_permohonan' => $status_permohonan,
-				'tanggal_mulai' => $tanggal_mulai,
-				'tanggal_selesai' => $tanggal_selesai,
+				'nama_anggota_1' => strtoupper($nama_anggota_1),
+				'nama_anggota_2' => strtoupper($nama_anggota_2),
 				'tahap_satu'  => "Selesai"
 			];
 			//Simpan pendaftaran tahap satu
@@ -242,8 +260,9 @@ class Pendaftaran extends BaseController
 	// Halaman pendaftaran tahap dua (Pilih Bidang Dan Kategori)
 	public function tahapDua()
 	{
-		$data['title']   = "E-Magang | Pendaftaran Tahap 2";
-		$data['bidang']   = $this->M_bidang->findAll();
+		$data['title'] = "SI AMANG | Pendaftaran Tahap 2";
+		$data['bidang'] = $this->M_bidang->findAll();
+		$data['kategori'] = $this->M_kategori->findAll();
 
 		//Cek bidang dan Kategori Peserta pada pendaftaran tahap dua berdasarkan user_id
 		$user_id = $this->session->get('id');
@@ -251,27 +270,31 @@ class Pendaftaran extends BaseController
 		$bidang_id = $cekTahapDua['bidang_id'];
 		$kategori_id = $cekTahapDua['kategori_id'];
 
-		$data['idPendaftaran']   = $cekTahapDua['id'];
-		$data['tahap_dua']   = $cekTahapDua['tahap_dua'];
+
+		$data['idPendaftaran'] = $cekTahapDua['id'];
+		$data['tahap_dua'] = $cekTahapDua['tahap_dua'];
 
 		//Jika $bidang_id == 0 dan $kategori_id == 0
 		if ($bidang_id == 0 && $kategori_id == 0) {
-			$data['IdBidang']   = "";
-			$data['nama_bidang']   = "--Bidang--";
-			$data['IdKategori']   = "";
-			$data['nama_kategori']   = "--Kategori--";
+			$data['IdBidang'] = "";
+			$data['nama_bidang'] = "--Bidang--";
+			$data['IdKategori'] = "";
+			$data['nama_kategori'] = "--Kategori--";
 		}
-		//Dan jika tidak 
+		//Dan jika tidak
 		else {
 			//Bidang
-			$data['IdBidang']   = $bidang_id;
+			$data['IdBidang'] = $bidang_id;
 			$cekBidang = $this->M_bidang->where('id', $bidang_id)->first();
-			$data['nama_bidang']   = $cekBidang['nama_bidang'];
+			$data['nama_bidang'] = $cekBidang['nama_bidang'];
 			//Kategori
-			$data['IdKategori']   = $kategori_id;
+			$data['IdKategori'] = $kategori_id;
 			$cekKategori = $this->M_kategori->where('id', $kategori_id)->first();
-			$data['nama_kategori']   = $cekKategori['nama_kategori'];
+			$data['nama_kategori'] = $cekKategori['nama_kategori'];
 		}
+
+		// Menampilkan pilihan mentor berdasarkan kategori_id
+		$data['mentor'] = $this->M_user->where('role_id', 2)->where('kategori_id', $kategori_id)->findAll();
 
 		return view('v_pendaftaran/tahap_2', $data);
 	}
@@ -289,16 +312,18 @@ class Pendaftaran extends BaseController
 	{
 		$id 		= $this->request->getPost('idPendaftaran');
 		$bidang 	= $this->request->getPost('bidang');
-		$kategori 		= $this->request->getPost('kategori');
+		$kategori 	= $this->request->getPost('kategori');
+		$mentor 	= $this->request->getPost('mentor');
 
-		//Data pendaftaran tahap dua
+		// Data pendaftaran tahap dua
 		$data_tahap_dua = [
 			'bidang_id' => $bidang,
 			'kategori_id' => $kategori,
+			'mentor_id' => $mentor,
 			'tahap_dua'  => "Selesai"
 		];
 
-		//Cek Validasi pendaftaran tahap dua, Jika Data Tidak Valid 
+		// Cek Validasi pendaftaran tahap dua, Jika Data Tidak Valid 
 		if ($this->form_validation->run($data_tahap_dua, 'tahap_dua') == FALSE) {
 
 			$validasi = [
@@ -308,10 +333,19 @@ class Pendaftaran extends BaseController
 			echo json_encode($validasi);
 		}
 
-		//Data Valid
+		// Data Valid
 		else {
-			//Simpan pendaftaran tahap satu
+			// Simpan pendaftaran tahap dua
 			$this->M_pendaftaran->update($id, $data_tahap_dua);
+
+			// Update kategori_id pada tbl_user
+			$user_id = $this->session->get('id');
+			$user = $this->M_user->where('id', $user_id)->first();
+			$data_user = [
+				'bidang_id' => $bidang,
+				'kategori_id' => $kategori
+			];
+			$this->M_user->update($user_id, $data_user);
 
 			$validasi = [
 				'success'   => true,
@@ -324,7 +358,7 @@ class Pendaftaran extends BaseController
 	// Halaman pendaftaran tahap tiga (Upload Berkas Pendaftaran)
 	public function tahapTiga()
 	{
-		$data['title']   = "E-Magang | Pendaftaran Tahap 3";
+		$data['title']   = "SI AMANG | Pendaftaran Tahap 3";
 
 		//Cek Foto dan Berkas Peserta pada pendaftaran tahap tiga berdasarkan user_id
 		$user_id = $this->session->get('id');
@@ -432,7 +466,7 @@ class Pendaftaran extends BaseController
 	// Halaman pendaftaran tahap empat (Resume Pendaftaran)
 	public function tahapEmpat()
 	{
-		$data['title']   = "E-Magang | Pendaftaran Tahap 4";
+		$data['title']   = "SI AMANG | Pendaftaran Tahap 4";
 
 		//Cek Resume pendaftaran berdasarkan user_id
 		$user_id = $this->session->get('id');
@@ -449,6 +483,11 @@ class Pendaftaran extends BaseController
 		//kategori
 		$cekKategori = $this->M_kategori->where('id', $kategori_id)->first();
 		$data['nama_kategori']   = $cekKategori['nama_kategori'];
+
+		//mentor
+
+		// Menampilkan pilihan mentor berdasarkan kategori_id
+		$data['mentor'] = $this->M_user->where('role_id', 2)->where('kategori_id', $kategori_id)->findAll();
 
 		return view('v_pendaftaran/tahap_4', $data);
 	}
@@ -478,7 +517,7 @@ class Pendaftaran extends BaseController
 	// Halaman dashboard peserta yang sudah melakukan pendaftaran
 	public function dashboard()
 	{
-		$data['title']   = "E-Magang | Dashboard Peserta";
+		$data['title']   = "SI AMANG | Dashboard Peserta";
 
 		//Cek pendaftaran berdasarkan user_id
 		$user_id = $this->session->get('id');
@@ -496,7 +535,9 @@ class Pendaftaran extends BaseController
 		$cekKategori = $this->M_kategori->where('id', $kategori_id)->first();
 		$data['nama_kategori']   = $cekKategori['nama_kategori'];
 
-		//Cek tanggal informasi pendaftaran
+		// Menampilkan pilihan mentor berdasarkan kategori_id
+		$data['mentor'] = $this->M_user->where('role_id', 2)->where('kategori_id', $kategori_id)->findAll();
+		//Cek tanggal in	formasi pendaftaran
 		$cekInfo = $this->M_informasi->first();
 		$data['tgl_pengumuman'] = $cekInfo['tgl_pengumuman'];
 
@@ -505,18 +546,33 @@ class Pendaftaran extends BaseController
 		return view('v_pendaftaran/dashboard', $data);
 	}
 
-	// Cetak bukti pendaftaran
-	public function buktiPendaftaran()
+
+	// Cetak NDE
+	public function nda()
 	{
+		//Cetak dengan dompdf
+		$dompdf = new \Dompdf\Dompdf();
+		$options = new \Dompdf\Options();
+		$options->setIsRemoteEnabled(true);
+
+		$dompdf->setOptions($options);
+		$dompdf->output();
+		$dompdf->loadHtml(view('v_pendaftaran/nda'));
+		$dompdf->setPaper('A4', 'portrait');
+		$dompdf->render();
+		$dompdf->stream('nda.pdf', array("Attachment" => false));
+	}
+	// Cetak NDE
+	public function nda_login()
+	{
+
 		//Cek bukti Pendaftaran berdasarkan user_id
 		$user_id = $this->session->get('id');
-		$buktiPendaftaran = $this->M_pendaftaran->where('user_id', $user_id)->first();
-		$bidang_id 	= $buktiPendaftaran['bidang_id'];
-		$kategori_id 		= $buktiPendaftaran['kategori_id'];
+		$ndaLogin = $this->M_pendaftaran->where('user_id', $user_id)->first();
+		$bidang_id 	= $ndaLogin['bidang_id'];
+		$kategori_id 		= $ndaLogin['kategori_id'];
 
-
-
-		$data['buktiPendaftaran']   = $buktiPendaftaran;
+		$data['ndaLogin']   = $ndaLogin;
 
 		//bidang
 		$cekBidang = $this->M_bidang->where('id', $bidang_id)->first();
@@ -539,24 +595,7 @@ class Pendaftaran extends BaseController
 
 		$dompdf->setOptions($options);
 		$dompdf->output();
-		$dompdf->loadHtml(view('v_pendaftaran/bukti_pendaftaran', $data));
-		$dompdf->setPaper('A4', 'portrait');
-		$dompdf->render();
-		$dompdf->stream('bukti_pendaftaran.pdf', array("Attachment" => false));
-	}
-	
-	// Cetak NDE
-	public function nda()
-	{
-
-		//Cetak dengan dompdf
-		$dompdf = new \Dompdf\Dompdf();
-		$options = new \Dompdf\Options();
-		$options->setIsRemoteEnabled(true);
-
-		$dompdf->setOptions($options);
-		$dompdf->output();
-		$dompdf->loadHtml(view('v_pendaftaran/nda'));
+		$dompdf->loadHtml(view('v_pendaftaran/nda_login', $data));
 		$dompdf->setPaper('A4', 'portrait');
 		$dompdf->render();
 		$dompdf->stream('nda.pdf', array("Attachment" => false));

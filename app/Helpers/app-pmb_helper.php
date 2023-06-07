@@ -26,3 +26,27 @@ function ubah_tgl2($tanggal) {
    $satukan = implode('/',$larik);
    return $satukan;
 }
+
+// fungsi untuk menghitung jumlah 
+function hitungData($table){
+   $db = \config\Database::connect();
+   return $db->table($table)->countAllResults();
+}
+
+// fungsi untuk menghitung jumlah pendaftar dengan status_verifikasi "Diterima"
+function hitungDataDiterima($table){
+   $db = \config\Database::connect();
+   return $db->table($table)->where('status_verifikasi', 'Diterima')->countAllResults();
+}
+
+function hitungDataKampus($table, $nama_kampus = null){
+   $db = \config\Database::connect();
+   
+   if($nama_kampus && $nama_kampus == 'UBSI'){
+      $db->table($table)->where('nama_kampus', $nama_kampus);
+   }
+   
+   return $db->table($table)->countAllResults();
+}
+
+

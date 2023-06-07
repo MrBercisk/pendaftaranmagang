@@ -1,23 +1,22 @@
 <?php namespace App\Models;
 
-use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\Model;
 
 class KategoriModel extends Model  
 {
 	protected $table = "tbl_kategori";
-	protected $allowedFields = ['bidang_id','nama_kategori','syarat','tugas'];
-	protected $column_order = [null, 'nama_kategori', 'syarat', 'tugas', null];
+	protected $allowedFields = ['bidang_id','nama_kategori','syarat','tugas', 'fitur'];
+	protected $column_order = [null, 'nama_kategori', 'syarat', 'tugas', 'fitur', null];
 	protected $column_search = ['nama_kategori'];
 	protected $order = ['id' => 'desc'];
 	protected $request;
 	protected $db;
 	protected $dt;
 
-	function __construct(RequestInterface $request){
+	function __construct(){
 	   parent::__construct();
 	   $this->db = db_connect();
-	   $this->request = $request;
+	   $this->request = \Config\Services::request();
 	   $this->dt = $this->db->table($this->table)->select('*');
 	}
 
@@ -68,6 +67,15 @@ class KategoriModel extends Model
 	public function count_all($idBidang){
 	    $tbl_storage = $this->db->table($this->table)->select('*')->where('bidang_id', $idBidang);
 	    return $tbl_storage->countAllResults();
+	}
+
+	public function getKategori()
+    {
+        return $this->findAll();
+    }
+	public function getKategoriById($id_kategori)
+	{
+		return $this->find($id_kategori);
 	}
 }
 

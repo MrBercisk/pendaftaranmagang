@@ -3,16 +3,18 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
-    <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
-    <h1 class="logo mr-auto"><a href="#">E-Magang<span> Diskominfosan</span></a></h1>
+
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="35px">
+    <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">SI AMANG</a></h1>
+
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="<?php echo base_url('pendaftaran/logout'); ?>">Logout</a></li>
+        <li><a href="<?php echo base_url('pendaftaran/logout'); ?>"><i class='bx bx-log-out'></i> Logout</a></li>
       </ul>
-    </nav>
+    </nav><!-- .nav-menu -->
+
   </div>
-</header>
+</header><!-- End Header -->
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
@@ -44,8 +46,8 @@
           <div class="member">
             <div class="member-img">
               <img src="/file_peserta/<?= $resume['foto']; ?>" class="img-fluid" id="previewImg" alt="">
-              <h5 class="text-center"><?= $resume['keahlian']; ?></h5>
               <h4 class="text-center"><?= $resume['nama_peserta']; ?></h4>
+              <h5 class="text-center"><?= $resume['keahlian']; ?></h5>
             </div>
 
             <!-- Preview Berkas Pendaftaran -->
@@ -66,9 +68,7 @@
             <li class="nav-item" role="presentation">
               <a class="nav-link" id="bagian-tab" data-toggle="tab" href="#bagian" role="tab" aria-controls="bagian" aria-selected="false">Bagian/Kategori</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="periode-tab" data-toggle="tab" href="#periode" role="tab" aria-controls="periode" aria-selected="false">Periode Magang</a>
-            </li>
+
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -88,27 +88,32 @@
                   </tr>
                   <tr>
                     <th scope="row">2</th>
+                    <td>Nomor Induk Mahasiswa</td>
+                    <td><?= $resume['nim']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
                     <td>Keahlian</td>
                     <td><?= $resume['keahlian']; ?></td>
                   </tr>
                   <tr>
                   <tr>
-                    <th scope="row">3</th>
+                    <th scope="row">4</th>
                     <td>Tools Yang Dikuasai</td>
                     <td><?= $resume['tools']; ?></td>
                   </tr>
                   <tr>
-                    <th scope="row">4</th>
+                    <th scope="row">5</th>
                     <td>Judul Project</td>
                     <td><?= $resume['judul']; ?></td>
                   </tr>
                   <tr>
-                    <th scope="row">5</th>
+                    <th scope="row">6</th>
                     <td>Alamat</td>
                     <td><?= $resume['alamat_peserta']; ?></td>
                   </tr>
                   <tr>
-                    <th scope="row">6</th>
+                    <th scope="row">7</th>
                     <td>No. Handphone</td>
                     <td><?= $resume['no_hp']; ?></td>
                   </tr>
@@ -139,29 +144,7 @@
                 </tbody>
               </table>
             </div>
-            <div class="tab-pane fade" id="periode" role="tabpanel" aria-labelledby="periode-tab">
-              <table class="table table-striped mt-4">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Periode</th>
-                    <th scope="col">Keterangan</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Tanggal Mulai</td>
-                    <td><?= $resume['tanggal_mulai']; ?></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Tanggal Selesai</td>
-                    <td><?= $resume['tanggal_selesai']; ?></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+
             <div class="tab-pane fade" id="bagian" role="tabpanel" aria-labelledby="bagian-tab">
               <table class="table table-striped mt-4">
                 <thead>
@@ -184,15 +167,37 @@
                   </tr>
                   <tr>
                     <th scope="row">3</th>
+                    <td>Nama Mentor</td>
+                    <?php foreach ($mentor as $m) : ?>
+                      <td><?= $m['nama'] ?></td>
+                    <?php endforeach ?>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
                     <td>Jenis Permohonan</td>
                     <td><?= $resume['jenis_permohonan']; ?></td>
                   </tr>
                   <tr>
-                    <th scope="row">4</th>
+                    <th scope="row">5</th>
                     <td>Status Permohonan</td>
                     <td><?= $resume['status_permohonan']; ?></td>
                   </tr>
-
+                  <?php if ($resume['status_permohonan'] == 'Kelompok') : ?>
+                    <?php if (!empty($resume['nama_anggota_1'])) : ?>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Anggota Kelompok 1</td>
+                        <td><?= $resume['nama_anggota_1']; ?></td>
+                      </tr>
+                    <?php endif; ?>
+                    <?php if (!empty($resume['nama_anggota_2'])) : ?>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Anggota Kelompok 2</td>
+                        <td><?= $resume['nama_anggota_2']; ?></td>
+                      </tr>
+                    <?php endif; ?>
+                  <?php endif; ?>
                 </tbody>
               </table>
             </div>

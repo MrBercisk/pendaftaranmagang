@@ -3,19 +3,22 @@
 <?= $this->section('header') ?>
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
-  <img src="<?= base_url('/assets/logo.png'); ?>" width="55px">
-    <h1 class="logo mr-auto"><a href="#">Magang<span> Diskominfosan</span></a></h1>
+
+    <img src="<?= base_url('/assets/logo.png'); ?>" width="35px">
+    <h1 class="logo mr-auto"><a href="<?php echo base_url('/'); ?>">SI AMANG</a></h1>
+
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="<?php echo base_url('pendaftaran/logout'); ?>">Logout</a></li>
+        <li><a href="<?php echo base_url('pendaftaran/logout'); ?>"><i class='bx bx-log-out'></i> Logout</a></li>
       </ul>
-    </nav>
+    </nav><!-- .nav-menu -->
+
   </div>
-</header>
+</header><!-- End Header -->
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
+
 <main id="main" data-aos="fade-up">
 
   <!-- ======= Breadcrumbs ======= -->
@@ -40,8 +43,8 @@
             <div class="member-img">
               <img src="/file_peserta/<?= $pendaftaran['foto']; ?>" class="img-fluid " id="previewImg" alt="">
             </div>
-            <h5 class="profile-username text-center"><?= $pendaftaran['keahlian']; ?></h5>
             <h4 class="profile-username text-center"><?= $pendaftaran['nama_peserta']; ?></h4>
+            <h5 class="profile-username text-center"><?= $pendaftaran['keahlian']; ?></h5>
 
 
           </div>
@@ -59,9 +62,7 @@
             <li class="nav-item" role="presentation">
               <a class="nav-link" id="bidang-tab" data-toggle="tab" href="#bidang" role="tab" aria-controls="bidang" aria-selected="false">Bidang/Kategori</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="periode-tab" data-toggle="tab" href="#periode" role="tab" aria-controls="periode" aria-selected="false">Periode Magang</a>
-            </li>
+
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -81,22 +82,32 @@
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Keahlian</td>
-                    <td><?=$pendaftaran['keahlian']; ?></td>
+                    <td>Nomor Induk Mahasiswa</td>
+                    <td><?= $pendaftaran['nim']; ?></td>
                   </tr>
-                  <tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>Tools Yang Dikuasai</td>
-                    <td><?=$pendaftaran['tools']; ?></td>
+                    <td>Keahlian</td>
+                    <td><?= $pendaftaran['keahlian']; ?></td>
                   </tr>
                   <tr>
+                  <tr>
                     <th scope="row">4</th>
+                    <td>Tools Yang Dikuasai</td>
+                    <td><?= $pendaftaran['tools']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Judul Project</td>
+                    <td><?= $pendaftaran['judul']; ?></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
                     <td>Alamat</td>
                     <td><?= $pendaftaran['alamat_peserta']; ?></td>
                   </tr>
                   <tr>
-                    <th scope="row">5</th>
+                    <th scope="row">7</th>
                     <td>No. Handphone</td>
                     <td><?= $pendaftaran['no_hp']; ?></td>
                   </tr>
@@ -116,36 +127,13 @@
                 <tbody>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Nama Univ</td>
+                    <td>Nama Kampus</td>
                     <td><?= $pendaftaran['nama_kampus']; ?></td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td>Program Studi</td>
-                    <td><?=$pendaftaran['prodi']; ?></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="tab-pane fade" id="periode" role="tabpanel" aria-labelledby="periode-tab">
-              <table class="table table-striped mt-4">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Periode</th>
-                    <th scope="col">Keterangan</th>
-                  </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Tanggal Mulai</td>
-                    <td><?=$pendaftaran['tanggal_mulai'] ; ?></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Tanggal Selesai</td>
-                    <td><?=$pendaftaran['tanggal_selesai'] ; ?></td>
+                    <td><?= $pendaftaran['prodi']; ?></td>
                   </tr>
                 </tbody>
               </table>
@@ -172,19 +160,38 @@
                   </tr>
                   <tr>
                     <th scope="row">3</th>
+                    <td>Nama Mentor</td>
+                    <?php foreach ($mentor as $m) : ?>
+                      <td><?= $m['nama'] ?></td>
+                    <?php endforeach ?>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
                     <td>Jenis Permohonan</td>
                     <td><?= $pendaftaran['jenis_permohonan']; ?></td>
                   </tr>
                   <tr>
-                    <th scope="row">4</th>
+                    <th scope="row">5</th>
                     <td>Status Permohonan</td>
                     <td><?= $pendaftaran['status_permohonan']; ?></td>
                   </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Judul Project</td>
-                    <td><?= $pendaftaran['judul']; ?></td>
-                  </tr>
+                  <?php if ($pendaftaran['status_permohonan'] == 'Kelompok') : ?>
+                    <?php if (!empty($pendaftaran['nama_anggota_1'])) : ?>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Anggota Kelompok 1</td>
+                        <td><?= $pendaftaran['nama_anggota_1']; ?></td>
+                      </tr>
+                    <?php endif; ?>
+                    <?php if (!empty($pendaftaran['nama_anggota_2'])) : ?>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Anggota Kelompok 2</td>
+                        <td><?= $pendaftaran['nama_anggota_2']; ?></td>
+                      </tr>
+                    <?php endif; ?>
+                  <?php endif; ?>
+
                 </tbody>
               </table>
             </div>
@@ -193,8 +200,6 @@
           <button type="button" class="btn btn-primary col-lg-4 mt-2" data-toggle="modal" data-target="#exampleModal">
             View Berkas Pendaftaran
           </button>
-          <!-- Cetak Bukti Pendaftaran -->
-          <a href="<?php echo base_url('pendaftaran/buktipendaftaran'); ?>" type="button" class="btn btn-primary col-lg-4 mt-2 " type="submit" id="btn-cetakKartu" target="_blank">Cetak Bukti Pendaftaran</a>
 
           <!-- Tanggal Pengumuman Lulus Administrasi -->
           <?php if ($tgl_sekarang < $tgl_pengumuman) : ?>
@@ -204,27 +209,50 @@
               <hr>
             </div>
           <?php endif ?>
+          <!-- Tanggal Pengumuman Lulus Administrasi -->
+          <?php if ($tgl_sekarang == $tgl_pengumuman) : ?>
+            <div class="alert alert-info mt-4" role="alert">
+              <h4 class="alert-heading">Pengumuman Lulus Administrasi!</h4>
+              <hr>
+            </div>
+          <?php endif ?>
 
           <!-- Verifikasi Pendaftaran -->
           <?php if ($tgl_sekarang >= $tgl_pengumuman) : ?>
-            <!-- Lulus -->
-            <?php if ($pendaftaran['status_verifikasi'] == "Lulus") : ?>
-              <div class="alert alert-primary mt-4" role="alert">
-                <h4 class="alert-heading">Selamat!</h4>
-                <p>Anda lulus pada kategori <b><?= $nama_kategori . " - " . $nama_bidang; ?></b></p>
-                <p>Link Magang : <a href="<?= base_url('magang'); ?>">Anda bisa masuk ke link ini untuk magang</a></p>  
-                <i class='bx bxs-pin'></i><b>DIMOHON UNTUK TIDAK SHARE LINK MAGANG KEPADA SIAPAPUN !!!</b></i>
-                <hr>
+            <!--Diterima -->
+            <?php if ($pendaftaran['status_verifikasi'] == "Diterima") : ?>
+              <div class="card mt-4 animate__animated animate__fadeInUp">
+                <div class="card-header bg-primary text-white">
+                  <h4 class="mb-0">Selamat!</h4>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><?= $nama_kategori . " - " . $nama_bidang; ?></h5>
+                  <p class="card-text">Anda telah diterima magang di <?= $nama_bidang; ?>.</p>
+                  <a href="<?= base_url('updateProfile'); ?>" class="btn btn-primary btn-lg btn-block mb-3 animate__animated animate__fadeIn">
+                    <i class='bx bxs-link-external'></i> Masuk Halaman Magang
+                  </a>
+                  <p class="text-muted mb-0"><i class='bx bxs-info-circle'></i> Link Magang bersifat pribadi dan tidak boleh dishare kepada siapapun.</p>
+                </div>
+
               </div>
             <?php endif ?>
-            <!-- Tidak Lulus -->
-            <?php if ($pendaftaran['status_verifikasi'] == "Tidak Lulus") : ?>
-              <div class="alert alert-danger mt-4" role="alert">
-                <h4 class="alert-heading">Mohon maaf!</h4>
-                <p>Anda tidak lulus pendaftaran penerimaan magang diskominfosan karena tidak memenuhi syarat</b></p>
-                <hr>
+
+
+            <?php if ($pendaftaran['status_verifikasi'] == "Tidak Diterima") : ?>
+              <div class="card mt-4 animate__animated animate__fadeInUp">
+                <div class="card-header bg-danger text-white">
+                  <h4 class="mb-0">Mohon maaf!</h4>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><?= $pendaftaran['keterangan']; ?></h5>
+                  <p class="card-text">Maaf, Anda tidak diterima magang di <?= $nama_bidang; ?>. Silakan coba mendaftar kembali pada kesempatan berikutnya.</p>
+                </div>
+                <div class="card-footer bg-transparent animate__animated animate__fadeInUp">
+                  <small class="text-muted"><i class='bx bxs-heart'></i> Jangan menyerah dan terus belajar untuk mencapai tujuan Anda.</small>
+                </div>
               </div>
             <?php endif ?>
+
           <?php endif ?>
         </div>
       </div>

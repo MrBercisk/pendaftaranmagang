@@ -83,7 +83,6 @@
               <ul class="nav nav-pills">
                 <li class="nav-item"><a class="nav-link active" href="#activity" data-toggle="tab">Biodata</a></li>
                 <li class="nav-item"><a class="nav-link" href="#settings" data-toggle="tab">Kampus</a></li>
-                <li class="nav-item"><a class="nav-link" href="#periode" data-toggle="tab">Periode</a></li>
                 <li class="nav-item"><a class="nav-link" href="#video" data-toggle="tab">Video Perkenalan</a></li>
               </ul>
             </div><!-- /.card-header -->
@@ -107,21 +106,26 @@
                       </tr>
                       <tr>
                         <th>2</th>
+                        <td>Nomor Induk Mahasiswa</td>
+                        <td><?= $pendaftaran['nim']; ?></td>
+                      </tr>
+                      <tr>
+                        <th>3</th>
                         <td>Tools Yang Dikuasai</td>
                         <td><?= $pendaftaran['tools']; ?></td>
                       </tr>
                       <tr>
-                        <th>3</th>
+                        <th>4</th>
                         <td>Judul Project</td>
                         <td><?= $pendaftaran['judul']; ?></td>
                       </tr>
                       <tr>
-                        <th>4</th>
+                        <th>5</th>
                         <td>Alamat</td>
                         <td><?= $pendaftaran['alamat_peserta']; ?></td>
                       </tr>
                       <tr>
-                        <th>5</th>
+                        <th>6</th>
                         <td>No. Handphone</td>
                         <td><?= $pendaftaran['no_hp']; ?></td>
                       </tr>
@@ -150,31 +154,6 @@
                         <th>2</th>
                         <td>Program Studi</td>
                         <td><?= $pendaftaran['prodi']; ?></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <!-- Periode -->
-                <div class="tab-pane" id="periode">
-                  <table class="table table-bordered table-striped">
-                    <thead>
-                      <tr>
-                        <th>#</th>
-                        <th>Periode</th>
-                        <th>Keterangan</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th>1</th>
-                        <td>Tanggal Mulai</td>
-                        <td><?= $pendaftaran['tanggal_mulai']; ?></td>
-                      </tr>
-                      <tr>
-                        <th>2</th>
-                        <td>Tanggal Selesai</td>
-                        <td><?= $pendaftaran['tanggal_selesai']; ?></td>
                       </tr>
                     </tbody>
                   </table>

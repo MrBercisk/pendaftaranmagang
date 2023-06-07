@@ -36,8 +36,116 @@ class Validation
     // Rules
     //--------------------------------------------------------------------
 
+    public $nilai = [
+        'nama_peserta' => [
+            'label'  => 'Nama Peserta',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Nama Peserta tidak boleh kosong!'
+            ]
+        ],
+        'ketepatan_waktu' => [
+            'label' => 'Ketepatan Waktu',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'kehadiran' => [
+            'label' => 'Kehadiran',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'kemampuan_kerja' => [
+            'label' => 'Kemampuan kerja',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'kualitas_kerja' => [
+            'label' => 'Kualitas Kerja',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'kerjasama' => [
+            'label' => 'Kerjasama',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'inisiatif' => [
+            'label' => 'Inisiatif',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'rasa_percaya' => [
+            'label' => 'Rasa Percaya',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
     
+            ],
+        ],
+        'penampilan' => [
+            'label' => 'Penampilan',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'tanggung_jawab' => [
+            'label' => 'Tanggung Jawab',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'rata_rata' => [
+            'label' => 'Rata-rata',
+            'rules' => 'numeric',
+            'errors' => [
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
+        'ketepatan_waktu' => [
+            'label' => 'Ketepatan Waktu',
+            'rules' => 'required|numeric',
+            'errors' => [
+                'required' => 'Kolom {field} harus diisi',
+                'numeric' => 'Kolom {field} harus berupa angka',
+            ],
+        ],
 
+    ];
+
+    //Validasi Data Kampus
+    public $kampus = [
+        'nama_kampus' => [
+            'label' => 'Nama Kampus',
+            'rules' => 'required|is_unique[tbl_kampus.nama_kampus]',
+            'errors' => [
+                'required' => 'Kolom {field} wajib diisi.',
+                'is_unique' => 'Nama kampus sudah ada dalam database.'
+            ]
+        ]
+    ];
     //Validasi Data bidang
     public $bidang = [
         'nama_bidang' => [
@@ -57,6 +165,44 @@ class Validation
             ]
         ]
     ];
+    public $jadwal = [
+        'nama_peserta' => [
+            'label'  => 'Nama Peserta',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Nama Peserta tidak boleh kosong!'
+            ]
+        ],
+
+        'tanggal_mulai' => [
+            'label'  => 'tanggal_mulai',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Tanggal Mulai tidak boleh kosong!'
+            ]
+        ],
+        'tanggal_selesai' => [
+            'label'  => 'tanggal_selesai',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Tanggal Selesai tidak boleh kosong!'
+            ]
+        ],
+        'jam_bimbingan' => [
+            'label'  => 'jam_bimbingan',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Jam Bimbingan tidak boleh kosong!'
+            ]
+        ],
+        'tanggal_bimbingan' => [
+            'label'  => 'tanggal_bimbingan',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Tanggal Bimbingan tidak boleh kosong!'
+            ]
+        ]
+    ];
 
     //Validasi Data Kategori
     public $kategori = [
@@ -66,19 +212,26 @@ class Validation
             'errors' => [
                 'required' => 'Nama kategori tidak boleh kosong!'
             ]
-            ],
+        ],
         'syarat' => [
             'label'  => 'Syarat',
             'rules'  => 'required',
             'errors' => [
-                'required' => 'Syarat tidak boleh kosong!'
+                'required' => 'Project tidak boleh kosong!'
             ]
-            ],
+        ],
         'tugas' => [
             'label'  => 'Tugas',
             'rules'  => 'required',
             'errors' => [
-                'required' => 'Tugas tidak boleh kosong!'
+                'required' => 'Definisi tidak boleh kosong!'
+            ]
+        ],
+        'fitur' => [
+            'label'  => 'Fitur',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Fitur tidak boleh kosong!'
             ]
         ]
     ];
@@ -137,6 +290,56 @@ class Validation
             ]
         ]
     ];
+    //Validasi Pendaftaran - Buat akun
+    public $tambah_mentor = [
+        'nama' => [
+            'label'  => 'Nama Lengkap',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Nama Lengkap Tidak Boleh Kosong!'
+            ]
+        ],
+        'email' => [
+            'label'  => 'Email',
+            'rules'  => 'required|valid_email|is_unique[tbl_user.email]',
+            'errors' => [
+                'required' => 'Email Tidak Boleh Kosong!',
+                'valid_email' => 'Email Tidak Valid!',
+                'is_unique' => 'Email Sudah Terdaftar!'
+            ]
+        ],
+        'password' => [
+            'label'  => 'Password',
+            'rules'  => 'required|min_length[8]',
+            'errors' => [
+                'required' => 'Password Tidak Boleh Kosong!',
+                'min_length' => 'Password Minimal 8 Karakter!'
+            ]
+        ],
+        'confirm_password' => [
+            'label'  => 'Confirm Password',
+            'rules'  => 'required|min_length[8]|matches[password]',
+            'errors' => [
+                'required' => 'Konfirmasi Password Tidak Boleh Kosong!',
+                'min_length' => 'Konfirmasi Password Minimal 8 Karakter!',
+                'matches' => 'Konfirmasi Password Tidak Sama Dengan Password!',
+            ]
+        ],
+        'bidang_id' => [
+            'label'  => 'Bidang',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Pilihan Bidang tidak boleh kosong!'
+            ]
+        ],
+        'kategori_id' => [
+            'label'  => 'Kategori',
+            'rules'  => 'required',
+            'errors' => [
+                'required' => 'Pilihan Kategori tidak boleh kosong!'
+            ]
+        ],
+    ];
 
     //Validasi Login
     public $login = [
@@ -180,20 +383,30 @@ class Validation
     //Validasi Pendaftran - Tahap satu (Biodata)
     public $tahap_satu = [
         'nama_peserta' => [
-            'label'  => 'Nama Peserta',
-            'rules'  => 'required',
+            'label' => 'Nama Peserta',
+            'rules' => 'required|alpha',
             'errors' => [
-                'required' => 'Nama Peserta tidak boleh kosong!'
+                'required' => 'Nama Peserta tidak boleh kosong!',
+                'alpha' => 'Nama Peserta hanya boleh berisi huruf'
             ]
         ],
+    
 
-
+        'nim' => [
+            'label'  => 'NIM',
+            'rules'  => 'required|numeric|max_length[12]',
+            'errors' => [
+                'required' => 'NIM Peserta tidak boleh kosong!',
+                'numeric' => 'NIM Peserta hanya berisi angka!',
+                'min_length' => 'NIM Peserta maksimal 12 angka!'
+            ]
+        ],
         'no_hp' => [
             'label'  => 'No. Handphone',
             'rules'  => 'required|numeric|max_length[12]',
             'errors' => [
                 'required' => 'No. Handphone Peserta tidak boleh kosong!',
-                'numeric' => 'No. Handphone Peserta tidak valid!',
+                'numeric' => 'No. Handphone Peserta hanya berisi angka!',
                 'min_length' => 'No. Handphone Peserta maksimal 12 angka!'
             ]
         ],
@@ -242,7 +455,7 @@ class Validation
                 'required' => 'Judul Project Magang tidak boleh kosong!'
             ]
         ],
-        
+
         'jenis_permohonan' => [
             'label'  => 'Jenis Permohonan',
             'rules'  => 'required',
@@ -255,20 +468,6 @@ class Validation
             'rules'  => 'required',
             'errors' => [
                 'required' => 'Pilihan Status Permohonan tidak boleh kosong!'
-            ]
-            ],
-        'tanggal_mulai' => [
-            'label'  => 'tanggal_mulai',
-            'rules'  => 'required',
-            'errors' => [
-                'required' => 'Tanggal Mulai tidak boleh kosong!'
-            ]
-            ],
-        'tanggal_selesai' => [
-            'label'  => 'tanggal_selesai',
-            'rules'  => 'required',
-            'errors' => [
-                'required' => 'Tanggal Selesai tidak boleh kosong!'
             ]
         ]
     ];

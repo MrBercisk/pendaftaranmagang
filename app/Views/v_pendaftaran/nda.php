@@ -23,23 +23,24 @@
 <br>
 
 <center>
-	<font size="4"><b>SURAT PERNYATAAN</b></font><br>
+	<font size="4"><b>NDA(Non Disclosure Agreement)</b></font><br>
 	<font size="3">(PRAKTIK KERJA LAPANGAN/MAGANG)</font><br>
 </center>
 
 <br><br>
 
 <table align="center">
-	<font size="3">Saya yang bertanda tangan dibawah ini</font><br>
+	<font size="3"><b>Saya yang bertanda tangan dibawah ini,</b></font><br>
 	<tr>
 		<ul>
 			<li>Nama:</li>
-			<li>No Identitas:</li>
 			<li>Alamat:</li>
-			<li>NO HP:</li>
-			<li>Universitas:</li>
-			<li>Fakultas/Jurusan:</li>
+			<li>No Handphone:</li>
+			<li>Universitas Asal:</li>
+			<li>Program Studi:</li>
 			<li>Nomor Induk Mahasiswa(NIM):</li>
+			<li>Tanggal Mulai:</li>
+			<li>Tanggal Selesai:</li>
 		</ul>
 	</tr>
 </table>
@@ -51,7 +52,6 @@
 		<td width="500">
 			<font size="3">Dalam rangka melaksanakan Praktik Kerja Lapangan/Magang</font><br><br>
 			<font size="3">Bertempat di Dinas Komunikasi Informatika dan Persandian Kota Yogyakarta</font><br> 
-			<font size="3">Tanggal:</font><br>
 			<font size="3">Dengan ini menyatakan bersedia dan sanggup memenuhi ketentuan dan aturan sebagai berikut:</font> 
 			<ol>
 				<li>Bahwa tujuan PKL/Magang ini adalah hanya untuk kepentingan memenuhi nilai mata kuliah PKL dan tidak akan mempergunakannya kecuali untuk kepentingan tersebut serta bersedia untuk merahasiakan informasi penting yang diperoleh dari DISKOMINFOSAN Kota Yogyakarta dan pihak-pihak yang berkepentingan. </li>

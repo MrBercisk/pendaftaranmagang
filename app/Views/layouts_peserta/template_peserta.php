@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><?= $title; ?></title>
+  <title><?= $title ?></title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,8 +27,11 @@
   <link href="/assets/bizland/css/style.css" rel="stylesheet">
   <!-- Icon Bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-<!-- WEBCAM -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"> 
+
+  <link rel="stylesheet" href="https://unpkg.com/waves.css@0.7.6/dist/waves.min.css" />
+
+  <!-- WEBCAM -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js">
   <!-- =======================================================
   * Template Name: BizLand - v1.1.0
   * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
@@ -38,23 +41,6 @@
 </head>
 
 <body>
-
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top ">
-    <div class="container d-flex">
-      <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i> <a href="mailto:contact@example.com">kominfosandi@jogjakota.go.id</a>
-        <i class="icofont-phone"></i> (0274)551230, 515865, 562682
-      </div>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="skype"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
-      </div>
-    </div>
-  </div>
 
   <!-- ======= Header ======= -->
   <?= $this->renderSection('header') ?>
@@ -69,7 +55,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 footer-contact">
             <img src="<?= base_url('/assets/logo.png'); ?>" width="70px" class="mb-3">
-            <h3>E-MAGANG</h3>
+            <h3>SI AMANG</h3>
             <p>
               Website Pendaftaran Magang <br>
               Dinas Komunikasi Informatika dan Persandian <br>
@@ -81,27 +67,20 @@
             <p><i class="bi bi-telephone-fill me-2"></i> (+62) 8123489122</p>
             <p><i class="bi bi-envelope-fill me-2"></i> kominfosandi@jogjakota.go.id</p>
           </div>
-
         </div>
       </div>
     </div>
-
-    <div class="container py-4">
-      <div class="copyright">
-        <strong>Copyright &copy; <script>
-            document.write(new Date().getFullYear());
-          </script> <a href="#">DISKOMINFOSAN</a>.</strong> All rights reserved.
-      </div>
-      <div class="credits">
-        <b>v 1.0.0</b>
+  </footer><!-- End Footer -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; <?= date('Y'); ?> SI AMANG. All Rights Reserved.</p>
       </div>
     </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  </div>
 
   <!-- Vendor JS Files -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="/assets/bizland/vendor/jquery/jquery.min.js"></script>
   <script src="/assets/bizland/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/bizland/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -125,7 +104,7 @@
   <script src="/assets/adminlte3/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
   <!-- Template Main JS File -->
   <script src="/assets/bizland/js/main.js"></script>
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.js"></script>
 
   <!-- page script -->

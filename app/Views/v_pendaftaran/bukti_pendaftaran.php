@@ -23,7 +23,7 @@
 <br>
 
 <center>
-	<font size="4"><b>BUKTI PENDAFTARAN MAGANG</b></font><br>
+	<font size="4"><b>SURAT KETERANGAN MAGANG</b></font><br>
 </center>
 
 <br><br>
@@ -35,7 +35,7 @@
 		<td rowspan="9" width="200">
 			<center>
 				<!-- Lokasi foto peserta pada aplikasi app-pmb -->
-				<img src="http://localhost/app-pmb2/public/file_peserta/<?= $buktiPendaftaran['foto']; ?>" alt="" width="200">
+				<img src="http://localhost/diskominfosan/public/file_peserta/<?= $buktiPendaftaran['foto']; ?>" alt="" width="200">
 			</center>
 		</td>
 	</tr>
@@ -64,17 +64,23 @@
 		<td>: <?= $buktiPendaftaran['keahlian']; ?></td>
 	</tr>
 	<tr>
-		<td>Tanggal Mulai</td>
-		<td>: <?= $buktiPendaftaran['tanggal_mulai']; ?></td>
+		<td>Status Permohonan</td>
+		<td>:<?= $buktiPendaftaran['status_permohonan']; ?></td>
 	</tr>
-	<tr>
-		<td>Tanggal Selesai</td>
-		<td>: <?= $buktiPendaftaran['tanggal_selesai']; ?></td>
-	</tr>
-	<tr>
-		<td>Tanggal Pendaftaran</td>
-		<td>: <?= tgl_indonesia($buktiPendaftaran['tanggal_pendaftaran']); ?></td>
-	</tr>
+	<?php if ($buktiPendaftaran['status_permohonan'] == 'Kelompok') : ?>
+		<?php if (!empty($buktiPendaftaran['nama_anggota_1'])) : ?>
+			<tr>
+				<td>Anggota Kelompok 1</td>
+				<td>:<?= $buktiPendaftaran['nama_anggota_1']; ?></td>
+			</tr>
+		<?php endif; ?>
+		<?php if (!empty($buktiPendaftaran['nama_anggota_2'])) : ?>
+			<tr>
+				<td>Anggota Kelompok 2</td>
+				<td>:<?= $buktiPendaftaran['nama_anggota_2']; ?></td>
+			</tr>
+		<?php endif; ?>
+	<?php endif; ?>
 </table>
 
 <br>
@@ -90,19 +96,14 @@
 <center>
 	<!-- Verifikasi Pendaftaran -->
 	<?php if ($tgl_sekarang >= $tgl_pengumuman) : ?>
-		<!-- Lulus -->
-		<?php if ($buktiPendaftaran['status_verifikasi'] == "Lulus") : ?>
+		<!-- Diterima -->
+		<?php if ($buktiPendaftaran['status_verifikasi'] == "Diterima") : ?>
 			<div class="alert alert-primary mt-4" role="alert">
 				<h3 class="alert-heading">KETERANGAN</h3>
 				<p>Anda Diterima Magang DISKOMINFOSAN pada kategori <b><?= $nama_kategori . " - " . $nama_bidang; ?></b></p>
-				<hr>
-			</div>
-		<?php endif ?>
-		<!-- Tidak Lulus -->
-		<?php if ($buktiPendaftaran['status_verifikasi'] == "Tidak Lulus") : ?>
-			<div class="alert alert-danger mt-4" role="alert">
-				<h4 class="alert-heading">Mohon maaf!</h4>
-				<p>Anda tidak lulus pendaftaran penerimaan magang diskominfosan karena tidak memenuhi syarat</b></p>
+				<?php foreach ($mentor as $m) : ?>
+				<p>Dengan Nama Mentor Anda : <?= $m['nama'] ?> </p>
+				<?php endforeach ?>
 				<hr>
 			</div>
 		<?php endif ?>
