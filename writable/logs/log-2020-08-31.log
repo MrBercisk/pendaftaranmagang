@@ -1,0 +1,31 @@
+CRITICAL - 2020-08-31 23:22:46 --> Undefined property: App\Controllers\Pendaftaran::$input
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->daftarAkun()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 23:28:34 --> Class 'Encryption\Encryption' not found
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Pendaftaran->__construct()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-31 23:29:55 --> Undefined property: App\Controllers\Pendaftaran::$input
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->daftarAkun()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-31 23:30:30 --> Undefined property: App\Controllers\Pendaftaran::$input
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->daftarAkun()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

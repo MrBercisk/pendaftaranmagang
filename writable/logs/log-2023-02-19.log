@@ -1,0 +1,16 @@
+CRITICAL - 2023-02-19 01:14:51 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-02-19 01:14:59 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}

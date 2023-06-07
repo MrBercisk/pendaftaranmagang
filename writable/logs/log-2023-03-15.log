@@ -1,0 +1,313 @@
+CRITICAL - 2023-03-15 01:03:58 --> Trying to get property 'nama_peserta' of non-object
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:05:29 --> Trying to get property 'nama_peserta' of non-object
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:05:50 --> Trying to get property 'nama_peserta' of non-object
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:11:30 --> Undefined property: App\Controllers\ProgressMagang::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:13:27 --> Trying to get property 'nama_peserta' of non-object
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:13:32 --> Trying to get property 'nama_peserta' of non-object
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\UpdateProfile.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UpdateProfile->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 13:13:33 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(514): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->dashboard()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:15:06 --> Table 'diskominfosan.tbl_progres' doesn't exist
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\ProgresMagangModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(65): App\Models\ProgresMagangModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 01:36:44 --> Trying to get property 'nama_peserta' of non-object
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->index()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 01:40:15 --> Call to undefined method App\Models\ProgresMagangModel::count_filtered
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(79): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 02:13:09 --> Table 'diskominfosan.tbl_progres' doesn't exist
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\ProgresMagangModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(65): App\Models\ProgresMagangModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 02:14:07 --> Table 'diskominfosan.tbl_progres' doesn't exist
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\ProgresMagangModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(65): App\Models\ProgresMagangModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 02:14:43 --> Table 'diskominfosan.tbl_progres' doesn't exist
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\ProgresMagangModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(65): App\Models\ProgresMagangModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 02:15:00 --> Table 'diskominfosan.tbl_progres' doesn't exist
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\ProgresMagangModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(65): App\Models\ProgresMagangModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 02:15:19 --> Table 'diskominfosan.tbl_progres' doesn't exist
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\ProgresMagangModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\ProgressMagang.php(65): App\Models\ProgresMagangModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\ProgressMagang->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 03:26:49 --> Too few arguments to function App\Models\ProgresMagangModel::get_datatables(), 0 passed in D:\Xampp\htdocs\diskominfosan\app\Controllers\DataProgress.php on line 63 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataProgress.php(63): App\Models\ProgresMagangModel->get_datatables()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataProgress->ajaxDataProgress()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 03:28:08 --> Unknown column 'tbl_pendaftaran.id' in 'field list'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\DataProgressModel.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataProgress.php(63): App\Models\DataProgressModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataProgress->ajaxDataProgress()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 14:01:28 --> Undefined variable: jumlah_pendaftaran
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\layouts_admin\navbar.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(525): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Views\layouts_admin\template_admin.php(39): CodeIgniter\View\View->include()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#7 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(114): view()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->view()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#11 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-15 14:08:22 --> Undefined variable: pendaftaran
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataLaporan\index.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataLaporan.php(54): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataLaporan->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-15 14:10:55 --> Undefined variable: pendaftaran
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataLaporan\index.php(70): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataLaporan.php(54): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataLaporan->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-15 14:23:57 --> Column 'user_id' in where clause is ambiguous
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\LaporanModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataLaporan.php(79): App\Models\LaporanModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataLaporan->ajaxDataLaporan()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 14:24:00 --> Column 'user_id' in where clause is ambiguous
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\LaporanModel.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataLaporan.php(79): App\Models\LaporanModel->get_datatables()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataLaporan->ajaxDataLaporan()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-15 15:00:42 --> Call to undefined method App\Models\UserModel::search
+#0 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(70): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(46): App\Models\UserModel->get_datatables_kategori()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-15 15:01:15 --> Undefined property: stdClass::$nama_kategori
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 15:02:03 --> Call to undefined method App\Models\UserModel::search
+#0 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(70): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(46): App\Models\UserModel->get_datatables_kategori()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-15 15:03:03 --> Argument 1 passed to App\Models\KategoriModel::__construct() must implement interface CodeIgniter\HTTP\RequestInterface, null given, called in D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php on line 26
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(26): App\Models\KategoriModel->__construct()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\DataMentor->__construct()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-15 15:03:29 --> Undefined variable: request
+#0 D:\Xampp\htdocs\diskominfosan\app\Models\KategoriModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(26): App\Models\KategoriModel->__construct()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\DataMentor->__construct()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-15 15:03:48 --> Call to undefined method App\Models\UserModel::search
+#0 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(70): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(49): App\Models\UserModel->get_datatables_kategori()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-15 15:07:34 --> Call to undefined method App\Models\UserModel::search
+#0 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(70): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(49): App\Models\UserModel->get_datatables_kategori()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-15 15:08:28 --> Call to undefined method App\Models\UserModel::search
+#0 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(70): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(49): App\Models\UserModel->get_datatables_kategori()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-15 16:10:29 --> Undefined property: stdClass::$kategori_id
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataMentor.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataMentor->ajaxDataMentor()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

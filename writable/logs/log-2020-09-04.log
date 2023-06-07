@@ -1,0 +1,71 @@
+CRITICAL - 2020-09-04 09:16:03 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(24): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->inputPendaftaran()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-04 09:17:41 --> Call to undefined method App\Models\UserModel::getRowArray
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(23): CodeIgniter\Model->__call('getRowArray', Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->inputPendaftaran()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-04 09:19:13 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->inputPendaftaran()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-04 09:38:46 --> Class 'App\Controllers\PendaftaranModel' not found
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Pendaftaran->__construct()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-04 10:12:37 --> Undefined property: App\Controllers\Pendaftaran::$session
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->logout()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-04 10:53:30 --> Array to string conversion
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->nomor()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-04 10:56:32 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(52): date()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->nomor()
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-04 11:20:40 --> Undefined property: App\Controllers\Pendaftaran::$M_fakultas
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->cekStatusPendaftaran()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-04 23:45:52 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pendaftaran/tah...')
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pendaftaran/tah...')
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

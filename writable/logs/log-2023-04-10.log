@@ -1,0 +1,19 @@
+CRITICAL - 2023-04-10 21:50:03 --> Undefined variable: title
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\layouts_peserta\template_peserta.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#4 D:\Xampp\htdocs\diskominfosan\app\Controllers\AuthController.php(60): view()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->forgotPassword()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-10 22:14:53 --> Call to undefined method Config\Email::initialize()
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\AuthController->forgotPassword()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}

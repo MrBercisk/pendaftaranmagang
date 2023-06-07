@@ -1,0 +1,16 @@
+CRITICAL - 2020-09-09 17:29:09 --> Undefined variable: domPdf
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->buktiPendaftaran()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-09 05:37:16 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pendaftaran/das...')
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pendaftaran/das...')
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

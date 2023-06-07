@@ -1,0 +1,11 @@
+CRITICAL - 2023-04-20 23:56:40 --> Undefined variable: tanggal
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_pendaftaran\tutup.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(91): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}

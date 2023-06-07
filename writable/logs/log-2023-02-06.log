@@ -1,0 +1,373 @@
+CRITICAL - 2023-02-06 02:05:48 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:22:53 --> Cannot use object of type App\Models\UserModel as array
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-02-06 02:25:44 --> Cannot use object of type App\Models\UserModel as array
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-02-06 02:47:32 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-02-06 02:47:34 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-02-06 02:47:34 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-02-06 02:47:37 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-02-06 02:47:37 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-02-06 02:58:27 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:28 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:28 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:29 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:29 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:29 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:30 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:30 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 02:58:45 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:02:26 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:02:27 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:02:27 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:02:29 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:04 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:07 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:07 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:07 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:08 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:11 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:38:12 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:49:05 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:49:11 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:49:14 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:49:23 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:57:00 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:58:12 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:58:15 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 03:58:15 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-02-06 04:31:28 --> include(add.php): failed to open stream: No such file or directory
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\progress.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\progress.php(25): include()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#4 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(30): view()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->progress()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-06 04:32:58 --> Undefined variable: nama_bidang
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\add.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\progress.php(25): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#4 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(30): view()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->progress()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-06 04:33:45 --> Undefined variable: nama_bidang
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\progress.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(30): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->progress()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-02-06 04:34:10 --> Undefined variable: nama_bidang
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\progress.php(64): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#4 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(30): view()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->progress()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-06 04:34:45 --> Undefined variable: id_bidang
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\progress.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(30): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->progress()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}

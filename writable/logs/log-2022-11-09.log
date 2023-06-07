@@ -1,0 +1,96 @@
+CRITICAL - 2022-11-09 09:14:00 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:14:03 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:14:09 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:14:09 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:14:33 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:14:37 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:15:31 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:15:33 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:15:33 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:15:52 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:16:00 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-11-09 09:16:06 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}

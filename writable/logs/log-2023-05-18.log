@@ -1,0 +1,72 @@
+CRITICAL - 2023-05-18 01:01:47 --> Invalid file: v_pendaftaran/SuratDiterimaMagang.php
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\Xampp\htdocs\diskominfosan\app\Controllers\UpdateProfile.php(231): view()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\UpdateProfile->buktiPendaftaran()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-18 01:31:40 --> Undefined variable: buktiPendaftaran
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_laporan\form_nilai.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\SelesaiMagang.php(154): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\SelesaiMagang->form_nilai()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-18 03:22:53 --> Call to a member function format() on string
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\Xampp\htdocs\diskominfosan\app\Controllers\LaporanMagang.php(121): view()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\LaporanMagang->index()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-18 16:33:11 --> Undefined variable: nama_mentor
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_pendaftaran\tahap_2.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(294): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapDua()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-18 16:35:02 --> Undefined variable: mentor
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_pendaftaran\tahap_2.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(288): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapDua()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-18 16:38:18 --> Undefined variable: kategori
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_pendaftaran\tahap_2.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(294): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapDua()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-18 17:08:41 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(468): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapEmpat()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}

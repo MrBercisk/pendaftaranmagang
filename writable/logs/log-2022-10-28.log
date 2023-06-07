@@ -1,0 +1,22 @@
+CRITICAL - 2022-10-28 12:18:44 --> Undefined variable: pendaftaran
+#0 D:\Xampp\htdocs\app-pmb2\app\Views\v_pendaftaran\tahap_4.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\app-pmb2\app\Controllers\Pendaftaran.php(432): view()
+#4 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapEmpat()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-10-28 12:43:20 --> Undefined index: prodi
+#0 D:\Xampp\htdocs\app-pmb2\app\Views\v_pendaftaran\tahap_1.php(67): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\app-pmb2\app\Controllers\Pendaftaran.php(167): view()
+#4 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapSatu()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}

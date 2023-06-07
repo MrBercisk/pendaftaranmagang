@@ -12,11 +12,11 @@
 |	      Darmanto (Back End Developer)
 |
 | Aplikasi ini memiliki 3 user yakni:
-| 	- Superadmin (Pengelola sistem)
+| 	- Admin (Pengelola sistem)
 | 	- Mentor
 |	- Mahasiswa
 |
-| Superadmin dapat:
+| Admin dapat:
 |	- Melakukan login
 |	- Mengelola informasi pendaftaran
 |	- Mengelola data bidang
@@ -38,6 +38,7 @@
 |	- Melakukan input nilai magang peserta berdasarkan kategori mentor jika peserta sudah selesai magang dan upload laporan
 |	- Mengelola laporan magang mahasiswa berdasarkan kategori mentor
 |	- Mengelola progress magang mahasiswa berdasarkan kategori mentor
+|	- Mengisi forum diskusi
 |
 | Mahasiswa dapat:
 |	- Mengunjungi halaman utama website
@@ -55,12 +56,26 @@
 |	- Melakukan input progress magang tiap bimbingan jika magang sudah dimulai
 |	- Melakukan input laporan magang jika magang sudah selesai
 |	- Mahasiswa dapat melakukan download form nilai dan surat selesai magang jika waktu magang telah selesai
-|	  Dan mahasiswa sudah upload laporan.
+|	  Dan mahasiswa sudah upload laporan
+|	- Mengisi forum diskusi
 |
 | 
 | Email dan password (default) login Aplikasi:
 | No.	Email						Password	User Role
 | 1.	admin@diskominfosan.ac.id			admin123	admin
+| 2.    bimosatrio814@gmail.com				masuk123	mahasiswa
+| 3.	mentorapk@diskominfosan.ac.id			mentor123	mentor
+| 4.	mentorperangkatlunak@diskominfosan.ac.id	mentor123	mentor
+| 5.	mentoranalisis@diskominfosan.ac.id		mentor123	mentor
+| 6.	mentorjaringan@diskominfosan.ac.id		mentor123	mentor
+| 7.	mentorserver@diskominfosan.ac.id		mentor123	mentor
+| 8.	mentoroperasional@diskominfosan.ac.id		mentor123	mentor
+| 9.	mentorpengamanan@diskominfosan.ac.id		mentor123	mentor
+| 10.	mentorpengawasan@diskominfosan.ac.id		mentor123	mentor
+| 11.	mentorlayanan@diskominfosan.ac.id		mentor123	mentor
+| 12.	mentorhumas@diskominfosan.ac.id			mentor123	mentor
+| 13.	mentorpengelolaan@diskominfosan.ac.id		mentor123	mentor
+| 14.	mentormultimedia@diskominfosan.ac.id		mentor123	mentor
 */
 
 Alur program SIAMANG

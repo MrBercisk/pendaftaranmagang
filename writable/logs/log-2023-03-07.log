@@ -1,0 +1,1806 @@
+CRITICAL - 2023-03-07 11:13:01 --> Trying to access array offset on value of type null
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(514): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->dashboard()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 11:16:41 --> Undefined variable: judul
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(33): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 11:17:42 --> Undefined variable: foto
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(33): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 11:34:04 --> Undefined variable: judul
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(33): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 11:34:13 --> Undefined variable: judul
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_progress\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(54): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->progress()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 11:34:15 --> Undefined variable: judul
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(33): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 11:43:57 --> Undefined variable: judul
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_magang\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Magang.php(33): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Magang->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 14:14:45 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\app\Controllers\Pendaftaran.php(139): mail()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->daftarAkun()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-03-07 02:45:06 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:45:38 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:45:38 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:45:38 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:45:45 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:45:56 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:46:06 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:46:17 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:46:25 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:46:37 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:46:46 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:46:56 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:47:08 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:47:15 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:47:50 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:48:00 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:48:18 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:48:28 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:48:38 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:48:50 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:48:58 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:49:09 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:49:27 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:49:28 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:49:38 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:49:48 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:49:58 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:50:08 --> Cannot redeclare App\Controllers\Admin::get_new_users_count()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-07 02:50:18 --> Call to undefined method App\Models\UserModel::getNewUsersCount
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(31): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 02:50:28 --> Call to undefined method App\Models\UserModel::getNewUsersCount
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(31): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 02:50:38 --> Call to undefined method App\Models\UserModel::getNewUsersCount
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 02:50:59 --> Call to undefined method App\Models\UserModel::getNewUsersCount
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 02:50:59 --> Call to undefined method App\Models\UserModel::getNewUsersCount
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 02:51:09 --> Call to undefined method App\Models\UserModel::getNewUsersCount
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): CodeIgniter\Model->__call()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 02:51:19 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:51:28 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:51:44 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:51:54 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:52:04 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:52:17 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:52:37 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:52:37 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:52:51 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:53:01 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:53:11 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:53:21 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:53:31 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:53:41 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:53:54 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:54:06 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:54:20 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:54:30 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:54:40 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:54:50 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:55:00 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:55:10 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:55:20 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:55:30 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:55:40 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:55:50 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:56:00 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:56:10 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:56:20 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:56:30 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:56:40 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:56:50 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:57:00 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:57:10 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:57:20 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:57:30 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:57:40 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:57:50 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:58:00 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:58:10 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:58:20 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:58:30 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:58:40 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:58:50 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:59:12 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:59:31 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:59:41 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 02:59:52 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:00:01 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:00:11 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:00:24 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:00:33 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:00:43 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:01:17 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:01:37 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:01:47 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:02:05 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:02:15 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:02:25 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:02:35 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:02:45 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:02:55 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:03:05 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:03:15 --> Unknown column 'status' in 'where clause'
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query()
+#4 D:\Xampp\htdocs\diskominfosan\app\Models\UserModel.php(17): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(29): App\Models\UserModel->getNewUsersCount()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->get_new_users_count()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-07 03:59:25 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 03:59:30 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 03:59:35 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 03:59:40 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 03:59:45 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 03:59:51 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 03:59:57 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:03 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:09 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:15 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:21 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:27 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:33 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:39 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:45 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:51 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:00:57 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:03 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:07 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:12 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:17 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:23 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:28 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:34 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:40 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:46 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:01:53 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:01 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:14 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:17 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:22 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:27 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:33 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:38 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:43 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:48 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:53 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:02:58 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:03 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:09 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:14 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:19 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:24 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:29 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:35 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:40 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:45 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:50 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:03:55 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:01 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:06 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:11 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:16 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:21 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:26 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:32 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:37 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:42 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:52 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:04:57 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:05:02 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:05:07 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:05:12 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:05:18 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 04:05:23 --> Undefined property: App\Controllers\Admin::$db
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\Admin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->check_new_registrants()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 22:07:43 --> Too few arguments to function App\Models\PendaftaranModel::__construct(), 0 passed in D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php on line 147 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(147): App\Models\PendaftaranModel->__construct()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 22:10:41 --> Too few arguments to function App\Models\PendaftaranModel::__construct(), 0 passed in D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php on line 147 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(147): App\Models\PendaftaranModel->__construct()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 22:12:48 --> Undefined variable: pendaftaran
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataPendaftaran\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(153): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 22:17:22 --> Too few arguments to function App\Controllers\DataPendaftaran::__construct(), 0 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 890 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\DataPendaftaran->__construct()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 22:17:46 --> Too few arguments to function App\Models\PendaftaranModel::__construct(), 0 passed in D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php on line 147 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(147): App\Models\PendaftaranModel->__construct()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 22:20:22 --> Too few arguments to function App\Models\PendaftaranModel::__construct(), 0 passed in D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php on line 147 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(147): App\Models\PendaftaranModel->__construct()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-07 22:28:19 --> Invalid file: datapendaftaran/ubah.php
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(167): view()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-07 22:29:03 --> Undefined index: id_pendaftaran
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataPendaftaran\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(167): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 22:31:22 --> Undefined index: nama
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataPendaftaran\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(167): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 22:32:36 --> Undefined index: email
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataPendaftaran\edit.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(167): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 22:33:23 --> Undefined variable: title
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\layouts_admin\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#4 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(167): view()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-07 22:34:50 --> Undefined variable: nama
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\layouts_admin\navbar.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(525): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Views\layouts_admin\template_admin.php(36): CodeIgniter\View\View->include()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#7 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(168): view()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#9 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#10 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#11 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-03-07 23:21:06 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 0 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:23:31 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 0 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:23:50 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 0 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:26:53 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 0 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:27:10 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 0 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:35:31 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 1 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:35:53 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 1 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-03-07 23:38:43 --> Call to a member function hasError() on null
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(171): view()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-07 23:38:47 --> Call to a member function hasError() on null
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(171): view()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-07 23:39:13 --> Call to a member function hasError() on null
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#2 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(171): view()
+#3 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-07 23:39:59 --> Class 'config\Database' not found
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dashboard\index.php(30): hitungData()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Dashboard.php(20): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 23:40:45 --> Class 'config\Database' not found
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dashboard\index.php(30): hitungData()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\Dashboard.php(20): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 23:41:09 --> Undefined index: id_
+#0 D:\Xampp\htdocs\diskominfosan\app\Views\v_dataPendaftaran\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render()
+#3 D:\Xampp\htdocs\diskominfosan\app\Controllers\DataPendaftaran.php(171): view()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->ubah()
+#5 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-03-07 23:42:06 --> Too few arguments to function App\Controllers\DataPendaftaran::update(), 1 passed in D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 2 expected
+#0 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataPendaftaran->update()
+#1 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 D:\Xampp\htdocs\diskominfosan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Xampp\htdocs\diskominfosan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,1547 @@
+CRITICAL - 2022-10-25 06:56:23 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\app-pmb\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-10-25 06:56:25 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\app-pmb\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-10-25 06:56:25 --> Decrypting: authentication failed.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 D:\Xampp\htdocs\app-pmb\app\Controllers\Login.php(59): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#2 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->cekUser()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-10-25 11:40:40 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:40:43 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:40:46 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:40:46 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:41:45 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:42:00 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:42:59 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:00 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:01 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:01 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:01 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:02 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:02 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:02 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:02 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:02 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:03 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:03 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:03 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:03 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:03 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:04 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:04 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:04 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:04 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:04 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:05 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:05 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:05 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:05 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:05 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:05 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:06 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:06 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:06 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:06 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:14 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:14 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:14 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:15 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:15 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:15 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:16 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:16 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:16 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:17 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:17 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:17 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:17 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:17 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:18 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:18 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:18 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:18 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:19 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:19 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:19 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:19 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:19 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:20 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:20 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:20 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:20 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:21 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:21 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:21 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:21 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:22 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:22 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:22 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:22 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:22 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:23 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:23 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:23 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:23 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:23 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:24 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:24 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:24 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:25 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:25 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:43:25 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:45:53 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(99): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->update()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:46:28 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:46:30 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:46:32 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:46:32 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:46:32 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:37 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:40 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:41 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:41 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:41 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:46 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:46 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:47 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:47 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:47 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:48 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:48 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:48 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:48 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:48 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:48 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:49 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:49 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:49 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:49 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:47:49 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:48:17 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:07 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:09 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:10 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:10 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:11 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:11 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:11 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:11 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:11 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:12 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:12 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:12 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:12 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:12 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:13 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:13 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:13 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:13 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:13 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:50:32 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(99): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->update()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:22 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:28 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:28 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:28 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:28 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:28 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:29 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:29 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:29 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:29 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:29 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:30 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:30 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:30 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:30 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:31 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:31 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:31 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:31 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:32 --> bidang is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataBidang.php(58): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataBidang->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-10-25 11:51:45 --> kategori is not a validation rules group.
+#0 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound()
+#1 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(149): CodeIgniter\Validation\Validation->loadRuleGroup()
+#2 D:\Xampp\htdocs\app-pmb\app\Controllers\DataKategori.php(74): CodeIgniter\Validation\Validation->run()
+#3 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\DataKategori->add()
+#4 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 D:\Xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#8 {main}

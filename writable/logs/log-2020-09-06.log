@@ -1,0 +1,52 @@
+CRITICAL - 2020-09-06 13:00:42 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-06 13:02:33 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-06 13:03:33 --> Call to a member function getName() on array
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-06 13:05:36 --> Array to string conversion
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(338): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 338, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-06 15:40:25 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-06 16:29:30 --> Undefined variable: file_foto
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 341, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-06 16:32:25 --> Undefined variable: file_foto
+#0 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 341, Array)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

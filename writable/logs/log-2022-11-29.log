@@ -1,0 +1,8 @@
+CRITICAL - 2022-11-29 22:39:36 --> Undefined index: nde
+#0 D:\Xampp\htdocs\app-pmb2\app\Controllers\Pendaftaran.php(334): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->tahapTiga()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#6 {main}

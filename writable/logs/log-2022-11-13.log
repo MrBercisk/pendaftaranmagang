@@ -1,0 +1,11 @@
+CRITICAL - 2022-11-13 23:43:25 --> Trying to access array offset on value of type bool
+#0 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Validation\FileRules.php(344): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->max_dims()
+#2 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules()
+#3 D:\Xampp\htdocs\app-pmb2\app\Controllers\Pendaftaran.php(378): CodeIgniter\Validation\Validation->run()
+#4 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#5 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 D:\Xampp\htdocs\app-pmb2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp\htdocs\app-pmb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\Xampp\\htdocs...')
+#9 {main}

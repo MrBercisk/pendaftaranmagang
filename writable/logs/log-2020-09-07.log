@@ -1,0 +1,86 @@
+CRITICAL - 2020-09-07 10:13:20 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 10:16:17 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 10:29:45 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 14:31:35 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 14:41:17 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 14:42:39 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 14:43:44 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php on line 325
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(325): CodeIgniter\Validation\FileRules->uploaded(Array, 'berkas', Array, NULL)
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('berkas', 'Berkas', Array, Array, Array)
+#2 C:\xampp\htdocs\app-pmb\app\Controllers\Pendaftaran.php(346): CodeIgniter\Validation\Validation->run(Array, 'tahap_tiga')
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pendaftaran->saveTahapTiga()
+#4 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-07 09:17:38 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pendaftaran/tah...')
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pendaftaran/tah...')
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-07 23:06:41 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('pendaftaran/pre...')
+#1 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pendaftaran/pre...')
+#2 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app-pmb\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app-pmb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
